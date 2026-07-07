@@ -1,0 +1,6 @@
+node_modules/
+qr-output/
+qr-output.zip
+.env
+*.log
+.npm-cache/

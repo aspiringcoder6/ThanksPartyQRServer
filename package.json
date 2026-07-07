@@ -1,0 +1,20 @@
+{
+  "name": "soict-party-server",
+  "version": "1.0.0",
+  "description": "SOICT Graduation Day Thanks Party — check-in server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "generate-qrs": "node generate-qrs.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jszip": "^3.10.1",
+    "qrcode": "^1.5.4"
+  }
+}
