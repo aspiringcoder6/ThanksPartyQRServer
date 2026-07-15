@@ -22,9 +22,6 @@ const SECRET = process.env.SECRET || 'change-me-in-render-env';
 // This resets on each redeploy, which is fine for a one-day event.
 const checkedIn = new Map();
 
-const registry = buildRegistry(SECRET);
-const byUid = new Map(registry.map(p => [p.uid, p]));
-
 app.use(cors());
 app.use(express.json());
 
@@ -35,86 +32,119 @@ function requireKey(req, res, next) {
   next();
 }
 
-app.get('/', (_, res) => {
-  res.json({
-    ok: true,
-    event: 'SOICT Graduation Day Thanks Party',
-    participants: registry.length,
-    columns: PARTICIPANTS.headers || [],
-  });
-});
-
-app.get('/participants', requireKey, (_, res) => {
-  const list = registry.map(p => ({
-    ...p,
-    checkedIn: checkedIn.has(p.uid),
-    checkedInAt: checkedIn.get(p.uid)?.checkedInAt ?? null,
-  }));
-  res.json(list);
-});
-
-app.post('/checkin', requireKey, (req, res) => {
-  const { payload, sig } = req.body || {};
-
+function verifyScan(payload, sig) {
   if (!payload || !sig) {
-    return res.status(400).json({ error: 'Missing payload or sig' });
+    return { status: 400, body: { error: 'Missing payload or sig' } };
   }
 
   const expected = hmacHex(SECRET, payload);
   if (!safeEqualHex(expected, sig)) {
-    return res.status(403).json({ error: 'Invalid signature' });
+    return { status: 403, body: { error: 'Invalid signature' } };
   }
 
-  let data;
   try {
-    data = JSON.parse(payload);
+    return { data: JSON.parse(payload) };
   } catch {
-    return res.status(400).json({ error: 'Malformed payload' });
+    return { status: 400, body: { error: 'Malformed payload' } };
   }
+}
 
-  const participant = byUid.get(data.uid);
-  if (!participant) {
-    return res.status(404).json({ error: 'Participant not found' });
-  }
+async function main() {
+  const registry = await buildRegistry(SECRET);
+  const byUid = new Map(registry.map(p => [p.uid, p]));
 
-  if (checkedIn.has(data.uid)) {
-    const info = checkedIn.get(data.uid);
-    return res.status(409).json({
-      error: 'already_checked_in',
-      participant,
-      checkedInAt: info.checkedInAt,
+  app.get('/', (_, res) => {
+    res.json({
+      ok: true,
+      event: 'SOICT Graduation Day Thanks Party',
+      participants: registry.length,
+      columns: PARTICIPANTS.headers || [],
     });
-  }
-
-  const checkedInAt = new Date().toISOString();
-  checkedIn.set(data.uid, { checkedInAt });
-
-  return res.json({ success: true, participant, checkedInAt });
-});
-
-app.get('/checkin/stats', requireKey, (_, res) => {
-  res.json({
-    total: registry.length,
-    arrived: checkedIn.size,
-    remaining: registry.length - checkedIn.size,
   });
-});
 
-app.get('/qr-payloads', requireKey, (_, res) => {
-  const payloads = registry.map(p => ({
-    uid: p.uid,
-    name: p.name,
-    email: p.email,
-    sid: p.sid,
-    fields: p.fields,
-    qrData: buildQRPayload(SECRET, p),
-  }));
-  res.json(payloads);
-});
+  app.get('/participants', requireKey, (_, res) => {
+    const list = registry.map(p => ({
+      ...p,
+      checkedIn: checkedIn.has(p.uid),
+      checkedInAt: checkedIn.get(p.uid)?.checkedInAt ?? null,
+    }));
+    res.json(list);
+  });
 
-app.listen(PORT, () => {
-  console.log(`SOICT Party server running on port ${PORT}`);
-  console.log(`  Participants loaded: ${registry.length}`);
-  console.log(`  CSV columns: ${PARTICIPANTS.headers?.join(', ') || 'none'}`);
-  console.log(`  SECRET set: ${SECRET !== 'change-me-in-render-env' ? 'YES' : 'NO - set SECRET env var!'}`);
+  app.post('/scan/preview', requireKey, (req, res) => {
+    const { payload, sig } = req.body || {};
+    const verified = verifyScan(payload, sig);
+    if (verified.status) return res.status(verified.status).json(verified.body);
+
+    const participant = byUid.get(verified.data.uid);
+    if (!participant) {
+      return res.status(404).json({ error: 'Participant not found' });
+    }
+
+    return res.json({
+      participant,
+      checkedIn: checkedIn.has(participant.uid),
+      checkedInAt: checkedIn.get(participant.uid)?.checkedInAt ?? null,
+    });
+  });
+
+  app.post('/checkin', requireKey, (req, res) => {
+    const { payload, sig } = req.body || {};
+    const verified = verifyScan(payload, sig);
+    if (verified.status) return res.status(verified.status).json(verified.body);
+
+    const participant = byUid.get(verified.data.uid);
+    if (!participant) {
+      return res.status(404).json({ error: 'Participant not found' });
+    }
+
+    if (checkedIn.has(verified.data.uid)) {
+      const info = checkedIn.get(verified.data.uid);
+      return res.status(409).json({
+        error: 'already_checked_in',
+        participant,
+        checkedInAt: info.checkedInAt,
+      });
+    }
+
+    const checkedInAt = new Date().toISOString();
+    checkedIn.set(verified.data.uid, { checkedInAt });
+
+    return res.json({ success: true, participant, checkedInAt });
+  });
+
+  app.get('/checkin/stats', requireKey, (_, res) => {
+    res.json({
+      total: registry.length,
+      arrived: checkedIn.size,
+      remaining: registry.length - checkedIn.size,
+    });
+  });
+
+  app.get('/qr-payloads', requireKey, (_, res) => {
+    const payloads = registry.map(p => ({
+      uid: p.uid,
+      name: p.name,
+      email: p.email,
+      sid: p.sid,
+      fields: p.fields,
+      tableInfo: p.tableInfo,
+      qrData: buildQRPayload(SECRET, p),
+    }));
+    res.json(payloads);
+  });
+
+  app.listen(PORT, () => {
+    const assignedTables = registry.filter(p => p.tableInfo).length;
+    console.log(`SOICT Party server running on port ${PORT}`);
+    console.log(`  Participants loaded: ${registry.length}`);
+    console.log(`  Table assignments loaded: ${assignedTables}`);
+    console.log(`  CSV columns: ${PARTICIPANTS.headers?.join(', ') || 'none'}`);
+    console.log(`  SECRET set: ${SECRET !== 'change-me-in-render-env' ? 'YES' : 'NO - set SECRET env var!'}`);
+  });
+}
+
+main().catch(err => {
+  console.error(err);
+  process.exit(1);
 });

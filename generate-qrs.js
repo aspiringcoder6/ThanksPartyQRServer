@@ -39,7 +39,7 @@ function fileNameFor(participant, index) {
 async function main() {
   ensureSecret();
 
-  const registry = buildRegistry(SECRET);
+  const registry = await buildRegistry(SECRET);
   const zip = new JSZip();
 
   await fs.rm(OUT_DIR, { recursive: true, force: true });

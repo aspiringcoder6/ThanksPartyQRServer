@@ -2,6 +2,7 @@
 
 const crypto = require('crypto');
 const PARTICIPANTS = require('./participants');
+const { findTableInfo, loadLayout } = require('./layout');
 
 function makeUid(secret, index, participant) {
   const key = participant.email
@@ -15,7 +16,9 @@ function makeUid(secret, index, participant) {
     .slice(0, 24);
 }
 
-function buildRegistry(secret) {
+async function buildRegistry(secret) {
+  const layout = await loadLayout();
+
   return PARTICIPANTS.map((participant, index) => ({
     ...participant.fields,
     uid: makeUid(secret, index, participant),
@@ -25,6 +28,7 @@ function buildRegistry(secret) {
     sid: participant.sid,
     phone: participant.phone,
     email: participant.email,
+    tableInfo: findTableInfo(layout, participant),
   }));
 }
 
