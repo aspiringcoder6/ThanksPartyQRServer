@@ -188,4 +188,6 @@ function findTableInfo(layout, participant) {
 module.exports = {
   findTableInfo,
   loadLayout,
+  normalizeEmail,
+  normalizeId,
 };

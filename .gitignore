@@ -4,3 +4,6 @@ qr-output.zip
 .env
 *.log
 .npm-cache/
+table-assignments.json
+qr-simple-output/
+qr-simple-output.zip

@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
-    "generate-qrs": "node generate-qrs.js"
+    "generate-qrs": "node generate-qrs.js",
+    "generate-simple-qrs": "node generate-simple-qrs.js"
   },
   "engines": {
     "node": ">=18"
