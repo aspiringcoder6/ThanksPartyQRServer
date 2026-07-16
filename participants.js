@@ -3,11 +3,15 @@
 const fs = require('fs');
 const path = require('path');
 
+const DEFAULT_FINAL_CSV = path.join(__dirname, 'participantsFinal.csv');
+const DEFAULT_CSV = path.join(__dirname, 'participants.csv');
 const CSV_PATH = process.env.PARTICIPANTS_CSV
   ? path.resolve(process.env.PARTICIPANTS_CSV)
-  : path.join(__dirname, 'participants.csv');
+  : fs.existsSync(DEFAULT_FINAL_CSV)
+    ? DEFAULT_FINAL_CSV
+    : DEFAULT_CSV;
 
-const NAME_FIELDS = ['Name', 'Full Name', 'Full name', 'Ho ten'];
+const NAME_FIELDS = ['Name', 'Full Name', 'Full name', 'Ho ten', 'Họ tên SV/HV', 'Họ tên', 'Ho ten SV/HV'];
 const ID_FIELDS = ['MSSV', 'Student ID', 'StudentID', 'SID', 'ID'];
 const EMAIL_FIELDS = ['Email', 'E-mail', 'Mail'];
 const PHONE_FIELDS = ['Phone', 'Phone Number', 'SDT'];
