@@ -170,14 +170,14 @@ async function main() {
     })));
   });
 
-  app.get('/api/admin/tables', requireKey, (_, res) => {
+  app.get('/api/admin/tables', (_, res) => {
     res.json({
       tables: tableStore.tables(),
       participants: registry.map(p => publicParticipant(p, tableStore)),
     });
   });
 
-  app.post('/api/admin/tables/move', requireKey, async (req, res) => {
+  app.post('/api/admin/tables/move', async (req, res) => {
     const participant = findParticipantBySid(req.body?.mssv, bySid);
     if (!participant) return res.status(404).json({ error: 'Participant not found' });
 
@@ -189,14 +189,14 @@ async function main() {
     }
   });
 
-  app.post('/api/admin/tables/remove', requireKey, async (req, res) => {
+  app.post('/api/admin/tables/remove', async (req, res) => {
     const participant = findParticipantBySid(req.body?.mssv, bySid);
     if (!participant) return res.status(404).json({ error: 'Participant not found' });
     await tableStore.remove(participant.sid);
     res.json({ success: true, participant: publicParticipant(participant, tableStore) });
   });
 
-  app.post('/api/admin/tables/swap', requireKey, async (req, res) => {
+  app.post('/api/admin/tables/swap', async (req, res) => {
     const first = findParticipantBySid(req.body?.mssv, bySid);
     const second = findParticipantBySid(req.body?.otherMssv, bySid);
     if (!first || !second) return res.status(404).json({ error: 'Participant not found' });
@@ -209,12 +209,12 @@ async function main() {
     }
   });
 
-  app.post('/api/admin/checkins/reset', requireKey, (_, res) => {
+  app.post('/api/admin/checkins/reset', (_, res) => {
     checkedIn.clear();
     res.json({ success: true });
   });
 
-  app.post('/api/admin/checkins/toggle', requireKey, (req, res) => {
+  app.post('/api/admin/checkins/toggle', (req, res) => {
     const participant = findParticipantBySid(req.body?.mssv, bySid);
     if (!participant) return res.status(404).json({ error: 'Participant not found' });
 
@@ -231,7 +231,7 @@ async function main() {
     res.json({ success: true, participant: publicParticipant(participant, tableStore) });
   });
 
-  app.get('/api/admin/participants.csv', requireKey, (_, res) => {
+  app.get('/api/admin/participants.csv', (_, res) => {
     res.setHeader('Content-Type', 'text/csv; charset=utf-8');
     res.setHeader('Content-Disposition', 'attachment; filename="participants-checkin.csv"');
     res.send(`\uFEFF${participantsCsv(registry, tableStore)}`);

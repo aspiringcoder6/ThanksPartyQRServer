@@ -45,7 +45,7 @@
     .status { margin-top: 8px; color: #2563eb; min-height: 20px; font-weight: 700; }
     main {
       display: grid;
-      grid-template-columns: minmax(360px, 48%) minmax(360px, 1fr);
+      grid-template-columns: minmax(280px, 30%) minmax(520px, 1fr);
       gap: 16px;
       padding: 16px;
     }
@@ -69,7 +69,7 @@
     .summary { font-size: 13px; color: #64748b; }
     .table-grid {
       display: grid;
-      grid-template-columns: repeat(6, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 8px;
       padding: 14px;
       max-height: calc(100vh - 170px);
@@ -150,7 +150,6 @@
   <header>
     <h1>SOICT Party Admin</h1>
     <div class="toolbar">
-      <input id="key" type="password" placeholder="Admin SECRET"/>
       <button class="secondary" onclick="loadData()">Refresh</button>
       <button class="good" onclick="downloadCsv()">Download CSV</button>
       <button class="danger" onclick="resetCheckins()">Reset check-ins</button>
@@ -181,7 +180,6 @@
   </main>
 
   <script>
-    const keyInput = document.getElementById('key');
     const tableGrid = document.getElementById('tableGrid');
     const slotsEl = document.getElementById('slots');
     const statusEl = document.getElementById('status');
@@ -192,13 +190,6 @@
     let participants = [];
     let selectedTable = '1';
 
-    keyInput.value = localStorage.adminKey || '';
-    keyInput.addEventListener('input', () => localStorage.adminKey = keyInput.value);
-
-    function headers() {
-      return { 'Content-Type': 'application/json', 'X-Api-Key': keyInput.value };
-    }
-
     function status(message) {
       statusEl.textContent = message;
     }
@@ -206,7 +197,7 @@
     async function api(path, options = {}) {
       const res = await fetch(path, {
         ...options,
-        headers: { ...headers(), ...(options.headers || {}) },
+        headers: { 'Content-Type': 'application/json', ...(options.headers || {}) },
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(data.error || 'Request failed');
@@ -229,7 +220,7 @@
 
     function renderTables() {
       const arrived = participants.filter(p => p.checkedIn).length;
-      summaryEl.textContent = participants.length + ' participants | ' + arrived + ' checked in';
+      summaryEl.textContent = `${participants.length} participants | ${arrived} checked in`;
       tableGrid.innerHTML = tables.map(table => {
         const cls = [
           'table-btn',
@@ -237,55 +228,59 @@
           table.tableSize === 0 ? 'empty' : '',
           table.tableNumber === selectedTable ? 'active' : '',
         ].filter(Boolean).join(' ');
-        return '<button class="' + cls + '" onclick="selectTable(\\'' + escAttr(table.tableNumber) + '\\')">' +
-          '<span class="num">' + esc(table.tableNumber) + '</span>' +
-          '<span class="count">' + table.tableSize + '/' + table.maxSize + '</span>' +
-          '</button>';
+        return `
+          <button class="${cls}" onclick="selectTable('${escAttr(table.tableNumber)}')">
+            <span class="num">${esc(table.tableNumber)}</span>
+            <span class="count">${table.tableSize}/${table.maxSize}</span>
+          </button>
+        `;
       }).join('');
     }
 
     function renderSlots() {
       const table = tables.find(t => t.tableNumber === selectedTable) || { people: [], maxSize: 10 };
-      selectedTitle.textContent = 'Table ' + selectedTable + ' - ' + table.people.length + '/' + table.maxSize;
-      const slots = [];
-      for (let index = 0; index < table.maxSize; index += 1) {
-        slots.push(renderSlot(index, table.people[index]));
-      }
-      slotsEl.innerHTML = slots.join('');
+      selectedTitle.textContent = `Table ${selectedTable} - ${table.people.length}/${table.maxSize}`;
+      slotsEl.innerHTML = Array.from({ length: table.maxSize }, (_, index) =>
+        renderSlot(index, table.people[index])
+      ).join('');
     }
 
     function renderSlot(index, person) {
       if (!person) {
-        return '<div class="slot empty">' +
-          '<div class="slot-num">' + (index + 1) + '</div>' +
-          '<div>' +
-            '<div class="person-name">Empty slot</div>' +
-            '<div class="person-meta">Hover to add by MSSV</div>' +
-            '<div class="actions">' +
-              '<input class="mini-input" id="add-' + index + '" placeholder="MSSV"/>' +
-              '<button class="mini-btn good" onclick="addToTable(\\'add-' + index + '\\')">Add</button>' +
-            '</div>' +
-          '</div>' +
-        '</div>';
+        return `
+          <div class="slot empty">
+            <div class="slot-num">${index + 1}</div>
+            <div>
+              <div class="person-name">Empty slot</div>
+              <div class="person-meta">Hover to add by MSSV</div>
+              <div class="actions">
+                <input class="mini-input" id="add-${index}" placeholder="MSSV"/>
+                <button class="mini-btn good" onclick="addToTable('add-${index}')">Add</button>
+              </div>
+            </div>
+          </div>
+        `;
       }
 
       const checked = Boolean(person.checkedIn);
-      return '<div class="slot ' + (checked ? 'checked' : '') + '">' +
-        '<div class="slot-num">' + (index + 1) + '</div>' +
-        '<div>' +
-          '<div class="person-name">' + esc(person.name) + '</div>' +
-          '<div class="person-meta">' + esc(person.sid) + ' | ' + esc(person.email || '') + '</div>' +
-          '<span class="check-pill">' + (checked ? 'Checked in' : 'Not checked in') + '</span>' +
-          '<div class="actions">' +
-            '<button class="mini-btn ' + (checked ? 'warn' : 'good') + '" onclick="toggleCheckin(\\'' + escAttr(person.sid) + '\\', ' + (!checked) + ')">' + (checked ? 'Undo check-in' : 'Check in') + '</button>' +
-            '<button class="mini-btn danger" onclick="removeFromTable(\\'' + escAttr(person.sid) + '\\')">Remove</button>' +
-            '<input class="mini-input" id="move-' + index + '" placeholder="Move to table"/>' +
-            '<button class="mini-btn secondary" onclick="moveToTable(\\'' + escAttr(person.sid) + '\\', \\'move-' + index + '\\')">Move</button>' +
-            '<input class="mini-input" id="swap-' + index + '" placeholder="Swap MSSV"/>' +
-            '<button class="mini-btn secondary" onclick="swapWith(\\'' + escAttr(person.sid) + '\\', \\'swap-' + index + '\\')">Swap</button>' +
-          '</div>' +
-        '</div>' +
-      '</div>';
+      return `
+        <div class="slot ${checked ? 'checked' : ''}">
+          <div class="slot-num">${index + 1}</div>
+          <div>
+            <div class="person-name">${esc(person.name)}</div>
+            <div class="person-meta">${esc(person.sid)} | ${esc(person.email || '')}</div>
+            <span class="check-pill">${checked ? 'Checked in' : 'Not checked in'}</span>
+            <div class="actions">
+              <button class="mini-btn ${checked ? 'warn' : 'good'}" onclick="toggleCheckin('${escAttr(person.sid)}', ${!checked})">${checked ? 'Undo check-in' : 'Check in'}</button>
+              <button class="mini-btn danger" onclick="removeFromTable('${escAttr(person.sid)}')">Remove</button>
+              <input class="mini-input" id="move-${index}" placeholder="Move to table"/>
+              <button class="mini-btn secondary" onclick="moveToTable('${escAttr(person.sid)}', 'move-${index}')">Move</button>
+              <input class="mini-input" id="swap-${index}" placeholder="Swap MSSV"/>
+              <button class="mini-btn secondary" onclick="swapWith('${escAttr(person.sid)}', 'swap-${index}')">Swap</button>
+            </div>
+          </div>
+        </div>
+      `;
     }
 
     function selectTable(tableNumber) {
@@ -339,7 +334,7 @@
     async function downloadCsv() {
       try {
         status('Preparing CSV...');
-        const res = await fetch('/api/admin/participants.csv', { headers: { 'X-Api-Key': keyInput.value } });
+        const res = await fetch('/api/admin/participants.csv');
         if (!res.ok) throw new Error('Could not download CSV');
         const blob = await res.blob();
         const url = URL.createObjectURL(blob);
@@ -362,6 +357,16 @@
     function escAttr(value) {
       return esc(value).replace(/'/g, '&#39;').replace(/"/g, '&quot;');
     }
+
+    window.loadData = loadData;
+    window.selectTable = selectTable;
+    window.addToTable = addToTable;
+    window.moveToTable = moveToTable;
+    window.removeFromTable = removeFromTable;
+    window.swapWith = swapWith;
+    window.toggleCheckin = toggleCheckin;
+    window.resetCheckins = resetCheckins;
+    window.downloadCsv = downloadCsv;
 
     loadData();
   </script>
