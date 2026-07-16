@@ -7,6 +7,8 @@ const { loadLayout, normalizeEmail, normalizeId } = require('./layout');
 const STORE_PATH = process.env.TABLE_ASSIGNMENTS_JSON
   ? path.resolve(process.env.TABLE_ASSIGNMENTS_JSON)
   : path.join(__dirname, 'table-assignments.json');
+const DEFAULT_TABLE_COUNT = 60;
+const MAX_TABLE_SIZE = 10;
 
 function clone(value) {
   return JSON.parse(JSON.stringify(value));
@@ -83,12 +85,33 @@ class TableStore {
       if (!grouped.has(record.tableNumber)) grouped.set(record.tableNumber, []);
       grouped.get(record.tableNumber).push(clone(record));
     }
-    return [...grouped.entries()].map(([tableNumber, people]) => ({
-      tableNumber,
-      tableLabel: `Table ${tableNumber}`,
-      tableSize: people.length,
-      people,
-    }));
+    const tables = [];
+    for (let index = 1; index <= DEFAULT_TABLE_COUNT; index += 1) {
+      const tableNumber = String(index);
+      const people = grouped.get(tableNumber) || [];
+      tables.push({
+        tableNumber,
+        tableLabel: `Table ${tableNumber}`,
+        tableSize: people.length,
+        maxSize: MAX_TABLE_SIZE,
+        people,
+      });
+    }
+    return tables;
+  }
+
+  tableSize(tableNumber, ignoreSid = '') {
+    const normalizedTable = normalizeTable(tableNumber);
+    const ignored = normalizeId(ignoreSid);
+    return this.records.filter(record =>
+      record.tableNumber === normalizedTable && normalizeId(record.sid) !== ignored
+    ).length;
+  }
+
+  ensureTableHasRoom(tableNumber, ignoreSid = '') {
+    if (this.tableSize(tableNumber, ignoreSid) >= MAX_TABLE_SIZE) {
+      throw new Error(`Table ${tableNumber} already has ${MAX_TABLE_SIZE} people`);
+    }
   }
 
   async remove(sid) {
@@ -104,6 +127,7 @@ class TableStore {
   async upsert(participant, tableNumber) {
     const normalizedTable = normalizeTable(tableNumber);
     if (!normalizedTable) throw new Error('Table number is required');
+    this.ensureTableHasRoom(normalizedTable, participant.sid);
 
     await this.remove(participant.sid);
     this.records.push({
@@ -117,6 +141,41 @@ class TableStore {
     this.reindex();
     await this.save();
     return this.find(participant);
+  }
+
+  async swap(firstParticipant, secondParticipant) {
+    const first = this.find(firstParticipant);
+    const second = this.find(secondParticipant);
+    if (!first) throw new Error(`${firstParticipant.sid} is not assigned to a table`);
+    if (!second) throw new Error(`${secondParticipant.sid} is not assigned to a table`);
+
+    const firstTable = first.tableNumber;
+    const secondTable = second.tableNumber;
+    await this.remove(firstParticipant.sid);
+    await this.remove(secondParticipant.sid);
+
+    this.records.push({
+      tableNumber: secondTable,
+      tableLabel: `Table ${secondTable}`,
+      name: firstParticipant.name,
+      sid: firstParticipant.sid,
+      email: firstParticipant.email,
+      className: firstParticipant.fields?.Class || '',
+    });
+    this.records.push({
+      tableNumber: firstTable,
+      tableLabel: `Table ${firstTable}`,
+      name: secondParticipant.name,
+      sid: secondParticipant.sid,
+      email: secondParticipant.email,
+      className: secondParticipant.fields?.Class || '',
+    });
+    this.reindex();
+    await this.save();
+    return {
+      first: this.find(firstParticipant),
+      second: this.find(secondParticipant),
+    };
   }
 }
 
