@@ -15,6 +15,16 @@ const checkedIn = new Map();
 app.use(cors());
 app.use(express.json({ limit: '1mb' }));
 
+app.use('/admin', (_, res, next) => {
+  res.setHeader('Cache-Control', 'no-store');
+  next();
+});
+
+app.use('/api/admin', (_, res, next) => {
+  res.setHeader('Cache-Control', 'no-store');
+  next();
+});
+
 function requireKey(req, res, next) {
   const key = req.headers['x-api-key'] || req.query.key || '';
   if (key !== SECRET) return res.status(401).json({ error: 'Unauthorized' });
@@ -41,8 +51,8 @@ function publicParticipant(participant, tableStore) {
     sid: participant.sid,
     email: participant.email,
     tableInfo,
-    checkedIn: checkedIn.has(participant.uid),
-    checkedInAt: checkedIn.get(participant.uid)?.checkedInAt ?? null,
+    checkedIn: checkedIn.has(norm(participant.sid)),
+    checkedInAt: checkedIn.get(norm(participant.sid))?.checkedInAt ?? null,
   };
 }
 
@@ -50,8 +60,8 @@ function adminParticipant(participant, tableStore) {
   return {
     ...participant,
     tableInfo: tableStore.find(participant),
-    checkedIn: checkedIn.has(participant.uid),
-    checkedInAt: checkedIn.get(participant.uid)?.checkedInAt ?? null,
+    checkedIn: checkedIn.has(norm(participant.sid)),
+    checkedInAt: checkedIn.get(norm(participant.sid))?.checkedInAt ?? null,
   };
 }
 
@@ -73,6 +83,30 @@ function findParticipantBySid(sid, bySid) {
   return bySid.get(norm(sid)) || null;
 }
 
+function tableRecordParticipant(record, tableStore) {
+  if (!record) return null;
+  return {
+    uid: `table:${record.sid}`,
+    name: record.name,
+    sid: record.sid,
+    email: record.email,
+    tableInfo: tableStore.find(record),
+    checkedIn: checkedIn.has(norm(record.sid)),
+    checkedInAt: checkedIn.get(norm(record.sid))?.checkedInAt ?? null,
+  };
+}
+
+function tableViews(tableStore) {
+  return tableStore.tables().map(table => ({
+    ...table,
+    people: table.people.map(person => ({
+      ...person,
+      checkedIn: checkedIn.has(norm(person.sid)),
+      checkedInAt: checkedIn.get(norm(person.sid))?.checkedInAt ?? null,
+    })),
+  }));
+}
+
 function csvEscape(value) {
   const text = String(value ?? '');
   return /[",\r\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
@@ -91,7 +125,7 @@ function participantsCsv(registry, tableStore) {
   ];
   const rows = registry.map(participant => {
     const tableInfo = tableStore.find(participant);
-    const checked = checkedIn.get(participant.uid);
+    const checked = checkedIn.get(norm(participant.sid));
     return [
       participant.sid,
       participant.name,
@@ -138,12 +172,13 @@ async function main() {
     }
 
     const { participant, nameMismatch } = found;
-    const alreadyCheckedIn = checkedIn.has(participant.uid);
+    const checkedKey = norm(participant.sid);
+    const alreadyCheckedIn = checkedIn.has(checkedKey);
     const checkedInAt = alreadyCheckedIn
-      ? checkedIn.get(participant.uid).checkedInAt
+      ? checkedIn.get(checkedKey).checkedInAt
       : new Date().toISOString();
 
-    if (!alreadyCheckedIn) checkedIn.set(participant.uid, { checkedInAt });
+    if (!alreadyCheckedIn) checkedIn.set(checkedKey, { checkedInAt });
 
     return res.json({
       success: true,
@@ -155,10 +190,11 @@ async function main() {
   });
 
   app.get('/checkin/stats', requireKey, (_, res) => {
+    const arrived = registry.filter(participant => checkedIn.has(norm(participant.sid))).length;
     res.json({
       total: registry.length,
-      arrived: checkedIn.size,
-      remaining: registry.length - checkedIn.size,
+      arrived,
+      remaining: registry.length - arrived,
     });
   });
 
@@ -172,7 +208,7 @@ async function main() {
 
   app.get('/api/admin/tables', (_, res) => {
     res.json({
-      tables: tableStore.tables(),
+      tables: tableViews(tableStore),
       participants: registry.map(p => publicParticipant(p, tableStore)),
     });
   });
@@ -215,20 +251,31 @@ async function main() {
   });
 
   app.post('/api/admin/checkins/toggle', (req, res) => {
-    const participant = findParticipantBySid(req.body?.mssv, bySid);
-    if (!participant) return res.status(404).json({ error: 'Participant not found' });
+    const sid = req.body?.mssv;
+    const participant = findParticipantBySid(sid, bySid);
+    const tableRecord = participant ? null : tableStore.bySid.get(norm(sid));
+    if (!participant && !tableRecord) return res.status(404).json({ error: 'Participant not found' });
 
     const shouldCheckIn = typeof req.body?.checkedIn === 'boolean'
       ? req.body.checkedIn
-      : !checkedIn.has(participant.uid);
+      : !checkedIn.has(norm(sid));
 
     if (shouldCheckIn) {
-      checkedIn.set(participant.uid, { checkedInAt: new Date().toISOString() });
+      checkedIn.set(norm(sid), { checkedInAt: new Date().toISOString() });
     } else {
-      checkedIn.delete(participant.uid);
+      checkedIn.delete(norm(sid));
     }
 
-    res.json({ success: true, participant: publicParticipant(participant, tableStore) });
+    const resultParticipant = participant
+      ? publicParticipant(participant, tableStore)
+      : tableRecordParticipant(tableRecord, tableStore);
+
+    res.json({
+      success: true,
+      participant: resultParticipant,
+      checkedIn: resultParticipant.checkedIn,
+      checkedInAt: resultParticipant.checkedInAt,
+    });
   });
 
   app.get('/api/admin/participants.csv', (_, res) => {

@@ -1,0 +1,4000 @@
+{
+  "records": [
+    {
+      "tableNumber": "3",
+      "tableLabel": "Table 3",
+      "name": "Đàm Quang Đức",
+      "sid": "20225483",
+      "email": "duc.dq225483@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "3",
+      "tableLabel": "Table 3",
+      "name": "Đinh Ngọc Duyên",
+      "sid": "20225124",
+      "email": "duyen.dn225124@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "3",
+      "tableLabel": "Table 3",
+      "name": "Kiều Văn Bảo",
+      "sid": "20225261",
+      "email": "bao.kv225261@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "3",
+      "tableLabel": "Table 3",
+      "name": "Lê Thị Thu Hương",
+      "sid": "20225199",
+      "email": "huong.ltt225199@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "3",
+      "tableLabel": "Table 3",
+      "name": "Nguyễn Đức An",
+      "sid": "20225432",
+      "email": "an.nd225432@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "3",
+      "tableLabel": "Table 3",
+      "name": "Nguyễn Quang Đông",
+      "sid": "20225284",
+      "email": "dong.nq225284@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "3",
+      "tableLabel": "Table 3",
+      "name": "Nguyễn Thị Hà",
+      "sid": "20225305",
+      "email": "ha.nt225305@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "3",
+      "tableLabel": "Table 3",
+      "name": "Nguyễn Thị Ngọc Anh",
+      "sid": "20225252",
+      "email": "anh.ntn225252@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "3",
+      "tableLabel": "Table 3",
+      "name": "Trần Duy Anh",
+      "sid": "20225256",
+      "email": "anh.td225256@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "3",
+      "tableLabel": "Table 3",
+      "name": "Trần Hữu Đạo",
+      "sid": "20220061",
+      "email": "dao.th220061@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "4",
+      "tableLabel": "Table 4",
+      "name": "Bùi Ánh Dương",
+      "sid": "20225489",
+      "email": "duong.ba225489@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "4",
+      "tableLabel": "Table 4",
+      "name": "Đinh Đình Lộc",
+      "sid": "20225647",
+      "email": "loc.dd225647@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "4",
+      "tableLabel": "Table 4",
+      "name": "Dương Quang Đông",
+      "sid": "20225808",
+      "email": "dong.dq225808@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "4",
+      "tableLabel": "Table 4",
+      "name": "Lê Tuấn Khải",
+      "sid": "20225861",
+      "email": "khai.lt225861@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "4",
+      "tableLabel": "Table 4",
+      "name": "Nguyễn Đức Trường",
+      "sid": "20225675",
+      "email": "truong.nd225675@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "4",
+      "tableLabel": "Table 4",
+      "name": "Nguyễn Khánh Nam",
+      "sid": "20225749",
+      "email": "nam.nk225749@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "4",
+      "tableLabel": "Table 4",
+      "name": "Phạm Quốc Dũng",
+      "sid": "20225817",
+      "email": "dung.pq225817@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "4",
+      "tableLabel": "Table 4",
+      "name": "Quách Gia Được",
+      "sid": "20225820",
+      "email": "duoc.qg225820@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "4",
+      "tableLabel": "Table 4",
+      "name": "Vũ Ngọc Hà",
+      "sid": "20225490",
+      "email": "ha.vn225490@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "4",
+      "tableLabel": "Table 4",
+      "name": "Vũ Nhật Quang",
+      "sid": "20225761",
+      "email": "quang.vn225761@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "7",
+      "tableLabel": "Table 7",
+      "name": "Đào Phúc Long",
+      "sid": "20220034",
+      "email": "long.dp220034@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "7",
+      "tableLabel": "Table 7",
+      "name": "Đỗ Hoàng Minh",
+      "sid": "20224877",
+      "email": "minh.dh224877@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "7",
+      "tableLabel": "Table 7",
+      "name": "Lưu Thịnh Khang",
+      "sid": "20220031",
+      "email": "khang.lt220031@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "7",
+      "tableLabel": "Table 7",
+      "name": "Nguyễn Thái Hòa",
+      "sid": "20224850",
+      "email": "hoa.nt224850@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "7",
+      "tableLabel": "Table 7",
+      "name": "Nguyễn Thái Khôi",
+      "sid": "20224868",
+      "email": "khoi.nt224868@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "7",
+      "tableLabel": "Table 7",
+      "name": "Nguyễn Viết Tuấn Kiệt",
+      "sid": "20220032",
+      "email": "kiet.nvt220032@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "7",
+      "tableLabel": "Table 7",
+      "name": "Nguyễn Vũ Dũng",
+      "sid": "20225964",
+      "email": "dung.nv225964@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "7",
+      "tableLabel": "Table 7",
+      "name": "Phan Đào Minh Quân",
+      "sid": "20225993",
+      "email": "quan.pdm225993@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "7",
+      "tableLabel": "Table 7",
+      "name": "Trần Đức Lê Huy",
+      "sid": "20225978",
+      "email": "huy.tdl225978@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "7",
+      "tableLabel": "Table 7",
+      "name": "Vũ Tùng Lâm",
+      "sid": "20225140",
+      "email": "lam.vt225140@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "8",
+      "tableLabel": "Table 8",
+      "name": "Lý Hiển Long",
+      "sid": "20225035",
+      "email": "long.lh225035@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "8",
+      "tableLabel": "Table 8",
+      "name": "Nguyễn Đại Dương",
+      "sid": "20224966",
+      "email": "duong.nd224966@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "8",
+      "tableLabel": "Table 8",
+      "name": "Nguyễn Đức Bình",
+      "sid": "20225475",
+      "email": "binh.nd225475@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "8",
+      "tableLabel": "Table 8",
+      "name": "Nguyễn Minh Đức",
+      "sid": "20225437",
+      "email": "duc.nm225437@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "8",
+      "tableLabel": "Table 8",
+      "name": "Nguyễn Như Giáp",
+      "sid": "20225441",
+      "email": "giap.nn225441@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "8",
+      "tableLabel": "Table 8",
+      "name": "Phạm Hồng Quân",
+      "sid": "20225551",
+      "email": "quan.ph225551@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "8",
+      "tableLabel": "Table 8",
+      "name": "Phạm Minh Hiếu",
+      "sid": "20220062",
+      "email": "hieu.pm220062@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "8",
+      "tableLabel": "Table 8",
+      "name": "Trần An Khanh",
+      "sid": "20225447",
+      "email": "khanh.ta225447@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "8",
+      "tableLabel": "Table 8",
+      "name": "Trương Tuấn Vinh",
+      "sid": "20225464",
+      "email": "vinh.tt225464@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "8",
+      "tableLabel": "Table 8",
+      "name": "Vũ Nhật Nguyên Thư",
+      "sid": "20225462",
+      "email": "thu.vnn225462@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "9",
+      "tableLabel": "Table 9",
+      "name": "Bùi Nguyễn Minh",
+      "sid": "20226055",
+      "email": "minh.bn226055@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "9",
+      "tableLabel": "Table 9",
+      "name": "Đoàn Thị Thu Quyên",
+      "sid": "20226063",
+      "email": "quyen.dtt226063@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "9",
+      "tableLabel": "Table 9",
+      "name": "Dương Phương Thảo",
+      "sid": "20226001",
+      "email": "thao.dp226001@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "9",
+      "tableLabel": "Table 9",
+      "name": "Htet Arkar Linn",
+      "sid": "20239904",
+      "email": "linn.ha239904@sis.hust.edu.vn",
+      "className": "ICT 01-K66",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "9",
+      "tableLabel": "Table 9",
+      "name": "Nguyễn Công Minh",
+      "sid": "20226056",
+      "email": "minh.nc226056@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "9",
+      "tableLabel": "Table 9",
+      "name": "Nguyễn Phương Anh",
+      "sid": "20226011",
+      "email": "anh.np226011@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "9",
+      "tableLabel": "Table 9",
+      "name": "Nguyễn Thị Thu Huyền",
+      "sid": "20220073",
+      "email": "huyen.ntt220073@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "9",
+      "tableLabel": "Table 9",
+      "name": "Nguyễn Trung Kiên",
+      "sid": "20226052",
+      "email": "kien.nt226052@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "9",
+      "tableLabel": "Table 9",
+      "name": "Phùng Đức Đạt",
+      "sid": "20226025",
+      "email": "dat.pd226025@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "9",
+      "tableLabel": "Table 9",
+      "name": "Trịnh Thị Thùy Dương",
+      "sid": "20226034",
+      "email": "duong.ttt226034@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "10",
+      "tableLabel": "Table 10",
+      "name": "Âu Trung Phong",
+      "sid": "20225455",
+      "email": "phong.at225455@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "10",
+      "tableLabel": "Table 10",
+      "name": "Đào Vũ Tiến Đạt",
+      "sid": "20225479",
+      "email": "dat.dvt225479@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "10",
+      "tableLabel": "Table 10",
+      "name": "Nguyễn Hải Đăng",
+      "sid": "20225478",
+      "email": "dang.nh225478@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "10",
+      "tableLabel": "Table 10",
+      "name": "Nguyễn Hoàng Quân",
+      "sid": "20225519",
+      "email": "quan.nh225519@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "10",
+      "tableLabel": "Table 10",
+      "name": "Nguyễn Mậu Trung",
+      "sid": "20225534",
+      "email": "trung.nm225534@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "10",
+      "tableLabel": "Table 10",
+      "name": "Nguyễn Tiến Đạt",
+      "sid": "20225481",
+      "email": "dat.nt225481@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "10",
+      "tableLabel": "Table 10",
+      "name": "Nguyễn Võ Ngọc Khuê",
+      "sid": "20225504",
+      "email": "khue.nvn225504@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "10",
+      "tableLabel": "Table 10",
+      "name": "Tạ Tuấn Hải",
+      "sid": "20225442",
+      "email": "hai.tt225442@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "10",
+      "tableLabel": "Table 10",
+      "name": "Trần Sỹ Minh Quân",
+      "sid": "20225521",
+      "email": "quan.tsm225521@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "10",
+      "tableLabel": "Table 10",
+      "name": "Vũ Đức Minh",
+      "sid": "20225514",
+      "email": "minh.vd225514@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "11",
+      "tableLabel": "Table 11",
+      "name": "Bùi Việt Hưng",
+      "sid": "20225723",
+      "email": "hung.bv225723@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "11",
+      "tableLabel": "Table 11",
+      "name": "Đặng Kim Ngân",
+      "sid": "20225751",
+      "email": "ngan.dk225751@sis.hust.edu.vn",
+      "className": "Việt Nhật 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "11",
+      "tableLabel": "Table 11",
+      "name": "Lê Hồ Quang Huy",
+      "sid": "20225636",
+      "email": "huyle1122004@gmail.com",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "11",
+      "tableLabel": "Table 11",
+      "name": "Lê Nhật Sơn",
+      "sid": "20225918",
+      "email": "son.ln225918@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "11",
+      "tableLabel": "Table 11",
+      "name": "Nguyễn Hoàng Tùng",
+      "sid": "20225948",
+      "email": "tung.nh225948@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "11",
+      "tableLabel": "Table 11",
+      "name": "Nguyễn Sơn Tùng",
+      "sid": "20225112",
+      "email": "tung.ns225112@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "11",
+      "tableLabel": "Table 11",
+      "name": "Nguyễn Thị Nhung",
+      "sid": "20225754",
+      "email": "nhung.nt225754@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "11",
+      "tableLabel": "Table 11",
+      "name": "Nguyễn Thùy Linh",
+      "sid": "20225031",
+      "email": "linh.nt225031@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "11",
+      "tableLabel": "Table 11",
+      "name": "Nguyễn Xuân Khuê",
+      "sid": "20225643",
+      "email": "khue.nx225643@sis.hust.edu.vn",
+      "className": "Việt Nhật 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "11",
+      "tableLabel": "Table 11",
+      "name": "Trần Thị Vân Anh",
+      "sid": "20225786",
+      "email": "anh.ttv225786@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "12",
+      "tableLabel": "Table 12",
+      "name": "Bùi Anh Đức",
+      "sid": "20225285",
+      "email": "duc.ba225285@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "12",
+      "tableLabel": "Table 12",
+      "name": "Bùi Văn Nam",
+      "sid": "20225211",
+      "email": "nam.bv225211@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "12",
+      "tableLabel": "Table 12",
+      "name": "Hồ Xuân Thái",
+      "sid": "20225393",
+      "email": "thai.hx225393@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "12",
+      "tableLabel": "Table 12",
+      "name": "Ngô Ngọc Hải",
+      "sid": "20225308",
+      "email": "hai.nn225308@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "12",
+      "tableLabel": "Table 12",
+      "name": "Nguyễn Phúc An Khang",
+      "sid": "20225137",
+      "email": "khang.npa225137@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "12",
+      "tableLabel": "Table 12",
+      "name": "Nguyễn Quốc Anh",
+      "sid": "20224919",
+      "email": "anh.nq224919@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "12",
+      "tableLabel": "Table 12",
+      "name": "Nguyễn Xuân Trưởng",
+      "sid": "20225420",
+      "email": "truong.nx225420@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "12",
+      "tableLabel": "Table 12",
+      "name": "Phạm Duy Thanh",
+      "sid": "20225400",
+      "email": "phamduythanh2004tb@gmail.com",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "12",
+      "tableLabel": "Table 12",
+      "name": "Phan Nhật Trường",
+      "sid": "20225419",
+      "email": "truong.pn225419@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "12",
+      "tableLabel": "Table 12",
+      "name": "Vũ Đức Anh",
+      "sid": "20225257",
+      "email": "anh.vd225257@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "13",
+      "tableLabel": "Table 13",
+      "name": "Bùi Đức Hùng",
+      "sid": "20225193",
+      "email": "hung.bd225193@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "13",
+      "tableLabel": "Table 13",
+      "name": "Bùi Ngọc Thanh",
+      "sid": "20225399",
+      "email": "thanh.bn225399@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "13",
+      "tableLabel": "Table 13",
+      "name": "Đặng Tuấn Anh",
+      "sid": "20225247",
+      "email": "anh.dt225247@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "13",
+      "tableLabel": "Table 13",
+      "name": "Đinh Quốc Đạt",
+      "sid": "20225275",
+      "email": "dat.dq225275@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "13",
+      "tableLabel": "Table 13",
+      "name": "Đinh Tạ Hoàng Dũng",
+      "sid": "20225290",
+      "email": "dung.dth225290@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "13",
+      "tableLabel": "Table 13",
+      "name": "Hoàng Công Vinh",
+      "sid": "20225238",
+      "email": "vinh.hc225238@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "13",
+      "tableLabel": "Table 13",
+      "name": "Nguyễn Lê Hà Sơn",
+      "sid": "20225157",
+      "email": "son.nlh225157@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "13",
+      "tableLabel": "Table 13",
+      "name": "Nguyễn Tú Anh",
+      "sid": "20225119",
+      "email": "anh.nt225119@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "13",
+      "tableLabel": "Table 13",
+      "name": "Nguyễn Xuân Thành",
+      "sid": "20225404",
+      "email": "thanh.nx225404@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "13",
+      "tableLabel": "Table 13",
+      "name": "Phan Trí Dũng",
+      "sid": "20225295",
+      "email": "dung.pt225295@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "14",
+      "tableLabel": "Table 14",
+      "name": "Bùi Thị Xuân",
+      "sid": "20225957",
+      "email": "xuan.bt225957@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "14",
+      "tableLabel": "Table 14",
+      "name": "Đinh Ngọc Khánh Huyền",
+      "sid": "20225726",
+      "email": "huyen.dnk225726@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "14",
+      "tableLabel": "Table 14",
+      "name": "Đỗ Minh Tâm",
+      "sid": "20225668",
+      "email": "tam.dm225668@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "14",
+      "tableLabel": "Table 14",
+      "name": "Ngô Hoàng Phúc",
+      "sid": "20225903",
+      "email": "phuc.nh225903@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "14",
+      "tableLabel": "Table 14",
+      "name": "Nguyễn Hồng Phúc",
+      "sid": "20225659",
+      "email": "phuc.nh225659@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "14",
+      "tableLabel": "Table 14",
+      "name": "Nguyễn Minh Hoàng",
+      "sid": "20225846",
+      "email": "hoang.nm225846@sis.hust.edu.vn",
+      "className": "Việt Nhật 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "14",
+      "tableLabel": "Table 14",
+      "name": "Nguyễn Việt Thành",
+      "sid": "20225931",
+      "email": "thanh.nv225931@sis.hust.edu.vn",
+      "className": "Việt Nhật 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "14",
+      "tableLabel": "Table 14",
+      "name": "Trần Khánh Quỳnh",
+      "sid": "20225762",
+      "email": "quynh.tk225762@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "14",
+      "tableLabel": "Table 14",
+      "name": "Trần Ngọc Hưng",
+      "sid": "20225635",
+      "email": "hung.tn225635@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "14",
+      "tableLabel": "Table 14",
+      "name": "Trần Thị Phương Thảo",
+      "sid": "20225766",
+      "email": "thao.ttp225766@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "15",
+      "tableLabel": "Table 15",
+      "name": "Bùi Quang Hưng",
+      "sid": "20225849",
+      "email": "hung.bq225849@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "15",
+      "tableLabel": "Table 15",
+      "name": "Bùi Xuân Nhất",
+      "sid": "20225897",
+      "email": "nhat.bx225897@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "15",
+      "tableLabel": "Table 15",
+      "name": "Đinh Đức Anh",
+      "sid": "20225782",
+      "email": "anh.dd225782@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "15",
+      "tableLabel": "Table 15",
+      "name": "Nguyễn Đức Quang",
+      "sid": "20225913",
+      "email": "quang.nd225913@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "15",
+      "tableLabel": "Table 15",
+      "name": "Nguyễn Mạnh Tùng",
+      "sid": "20225682",
+      "email": "tung.nm225682@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "15",
+      "tableLabel": "Table 15",
+      "name": "Nguyễn Vũ Linh Phong",
+      "sid": "20225902",
+      "email": "phong.nvl225902@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "15",
+      "tableLabel": "Table 15",
+      "name": "Phạm Đức Huy",
+      "sid": "20225136",
+      "email": "huy.pd225136@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "15",
+      "tableLabel": "Table 15",
+      "name": "Tạ Hồng Phúc",
+      "sid": "20225906",
+      "email": "phuc.th225906@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "15",
+      "tableLabel": "Table 15",
+      "name": "Vũ Quốc Bảo",
+      "sid": "20225694",
+      "email": "bao.vq225694@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "15",
+      "tableLabel": "Table 15",
+      "name": "Vương Quốc Huy",
+      "sid": "20225637",
+      "email": "huy.vq225637@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "16",
+      "tableLabel": "Table 16",
+      "name": "Bùi Ý Nhi",
+      "sid": "20225657",
+      "email": "nhi.by225657@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "16",
+      "tableLabel": "Table 16",
+      "name": "Đặng Minh Trí",
+      "sid": "20225939",
+      "email": "tri.dm225939@sis.hust.edu.vn",
+      "className": "Việt Nhật 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "16",
+      "tableLabel": "Table 16",
+      "name": "Hoàng Anh Tú",
+      "sid": "20220055",
+      "email": "tu.ha220055@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "16",
+      "tableLabel": "Table 16",
+      "name": "Mai Thanh Hương",
+      "sid": "20225852",
+      "email": "huong.mt225852@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "16",
+      "tableLabel": "Table 16",
+      "name": "Nguyễn Đức Mạnh",
+      "sid": "20225880",
+      "email": "manh.nd225880@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "16",
+      "tableLabel": "Table 16",
+      "name": "Nguyễn Trần Nam Khánh",
+      "sid": "20225344",
+      "email": "khanh.ntn225344@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "16",
+      "tableLabel": "Table 16",
+      "name": "Trần Hải Nhật Minh",
+      "sid": "20225144",
+      "email": "minh.thn225144@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "16",
+      "tableLabel": "Table 16",
+      "name": "Trịnh Hữu An",
+      "sid": "20225593",
+      "email": "an.th225593@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "16",
+      "tableLabel": "Table 16",
+      "name": "Trương Ngọc Mai",
+      "sid": "20225879",
+      "email": "mai.tn225879@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "16",
+      "tableLabel": "Table 16",
+      "name": "Vũ Tiến Thăng",
+      "sid": "20225396",
+      "email": "thang.vt225396@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "17",
+      "tableLabel": "Table 17",
+      "name": "Đặng Quang Huy",
+      "sid": "20225853",
+      "email": "huy.dq225853@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "17",
+      "tableLabel": "Table 17",
+      "name": "Lê Bá Ngọc Hiểu",
+      "sid": "20225627",
+      "email": "hieu.lbn225627@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "17",
+      "tableLabel": "Table 17",
+      "name": "Lê Quang Khải",
+      "sid": "20225638",
+      "email": "khai.lq225638@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "17",
+      "tableLabel": "Table 17",
+      "name": "Nguyễn Bá Hoàng",
+      "sid": "20225844",
+      "email": "hoang.nb225844@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "17",
+      "tableLabel": "Table 17",
+      "name": "Phạm Đức Long",
+      "sid": "20225737",
+      "email": "long.pd225737@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "17",
+      "tableLabel": "Table 17",
+      "name": "Phạm Quốc Minh",
+      "sid": "20225743",
+      "email": "minh.pq225743@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "17",
+      "tableLabel": "Table 17",
+      "name": "Phạm Tùng Dương",
+      "sid": "20225825",
+      "email": "duong.pt225825@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "17",
+      "tableLabel": "Table 17",
+      "name": "Phạm Văn Đồng",
+      "sid": "20225702",
+      "email": "dong.pv225702@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "17",
+      "tableLabel": "Table 17",
+      "name": "Phan Đức Duy",
+      "sid": "20225831",
+      "email": "duy.pd225831@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "17",
+      "tableLabel": "Table 17",
+      "name": "Trương Anh Đức",
+      "sid": "20225814",
+      "email": "duc.ta225814@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "18",
+      "tableLabel": "Table 18",
+      "name": "Lê Bá Minh Phúc",
+      "sid": "20225065",
+      "email": "phuc.lbm225065@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "18",
+      "tableLabel": "Table 18",
+      "name": "Mai Đức Thịnh",
+      "sid": "20220043",
+      "email": "thinh.md220043@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "18",
+      "tableLabel": "Table 18",
+      "name": "Nguyễn Công Phương",
+      "sid": "20225069",
+      "email": "phuong.nc225069@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "18",
+      "tableLabel": "Table 18",
+      "name": "Nguyễn Nam",
+      "sid": "20220037",
+      "email": "nam.n220037@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "18",
+      "tableLabel": "Table 18",
+      "name": "Nguyễn Thế Anh",
+      "sid": "20224920",
+      "email": "anh.nt224920@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "18",
+      "tableLabel": "Table 18",
+      "name": "Nguyễn Thế Anh",
+      "sid": "20224921",
+      "email": "anh.nt224921@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "18",
+      "tableLabel": "Table 18",
+      "name": "Nguyễn Xuân Bình",
+      "sid": "20224930",
+      "email": "binh.nx224930@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "18",
+      "tableLabel": "Table 18",
+      "name": "Nhữ Ngọc Minh",
+      "sid": "20225046",
+      "email": "minh.nn225046@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "18",
+      "tableLabel": "Table 18",
+      "name": "Phạm Văn Thanh",
+      "sid": "20220042",
+      "email": "thanh.pv220042@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "18",
+      "tableLabel": "Table 18",
+      "name": "Trần Lê Dũng",
+      "sid": "20224964",
+      "email": "dung.tl224964@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "19",
+      "tableLabel": "Table 19",
+      "name": "Bùi Ngọc Hợp",
+      "sid": "20225721",
+      "email": "hop.bn225721@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "19",
+      "tableLabel": "Table 19",
+      "name": "Bùi quang tùng",
+      "sid": "20225945",
+      "email": "tung.bq225945@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "19",
+      "tableLabel": "Table 19",
+      "name": "Dương Tuấn Nghĩa",
+      "sid": "20225753",
+      "email": "nghia.dt225753@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "19",
+      "tableLabel": "Table 19",
+      "name": "Nguyễn Đăng Bảo Lâm",
+      "sid": "20225873",
+      "email": "lam.ndb225873@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "19",
+      "tableLabel": "Table 19",
+      "name": "Nguyễn Đình Thành",
+      "sid": "20225670",
+      "email": "thanh.nd225670@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "19",
+      "tableLabel": "Table 19",
+      "name": "Nguyễn Đức Nghĩa",
+      "sid": "20225895",
+      "email": "nghia.nd225895@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "19",
+      "tableLabel": "Table 19",
+      "name": "Nguyễn Đức Tấn Sang",
+      "sid": "20225664",
+      "email": "sang.ndt225664@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "19",
+      "tableLabel": "Table 19",
+      "name": "Nguyễn khắc quang",
+      "sid": "20225760",
+      "email": "quang.nk225760@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "19",
+      "tableLabel": "Table 19",
+      "name": "Phạm Gia Khiêm",
+      "sid": "20225868",
+      "email": "khiem.pg225868@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "19",
+      "tableLabel": "Table 19",
+      "name": "Vũ Quang Dũng",
+      "sid": "20225818",
+      "email": "dung.vq225818@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "20",
+      "tableLabel": "Table 20",
+      "name": "Hà Trung Chiến",
+      "sid": "20225794",
+      "email": "chien.ht225794@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "20",
+      "tableLabel": "Table 20",
+      "name": "Hồ Tuấn Huy",
+      "sid": "20225856",
+      "email": "huy.ht225856@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "20",
+      "tableLabel": "Table 20",
+      "name": "Nguyễn Bùi Tuấn Linh",
+      "sid": "20225732",
+      "email": "linh.nbt225732@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "20",
+      "tableLabel": "Table 20",
+      "name": "Nguyễn Đình Chiến",
+      "sid": "20215262",
+      "email": "chien.nd215262@sis.hust.edu.vn",
+      "className": "PFIEV Công nghệ thông tin 01-K66",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "20",
+      "tableLabel": "Table 20",
+      "name": "Nguyễn Đức Thắng",
+      "sid": "20225089",
+      "email": "thang.nd225089@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "20",
+      "tableLabel": "Table 20",
+      "name": "Nguyễn Khánh Toàn",
+      "sid": "20225936",
+      "email": "toan.nk225936@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "20",
+      "tableLabel": "Table 20",
+      "name": "Nguyễn Tiến Đăng",
+      "sid": "20224945",
+      "email": "dang.nt224945@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "20",
+      "tableLabel": "Table 20",
+      "name": "Phạm Quốc Cường",
+      "sid": "20225604",
+      "email": "cuong.pq225604@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "20",
+      "tableLabel": "Table 20",
+      "name": "Trần Đức An",
+      "sid": "20224912",
+      "email": "an.td224912@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "20",
+      "tableLabel": "Table 20",
+      "name": "Trần Thành Vinh",
+      "sid": "20225539",
+      "email": "vinh.tt225539@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "21",
+      "tableLabel": "Table 21",
+      "name": "Đặng Đình Khải",
+      "sid": "20224863",
+      "email": "khai.dd224863@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "21",
+      "tableLabel": "Table 21",
+      "name": "Đậu Quốc Duy",
+      "sid": "20224971",
+      "email": "duy.dq224971@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "21",
+      "tableLabel": "Table 21",
+      "name": "Dương Hải Anh",
+      "sid": "20224915",
+      "email": "anh.dh224915@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "21",
+      "tableLabel": "Table 21",
+      "name": "Lê Nhật Hoàng",
+      "sid": "20224989",
+      "email": "hoang.ln224989@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "21",
+      "tableLabel": "Table 21",
+      "name": "Nguyễn Phi Cường Mạnh",
+      "sid": "20224875",
+      "email": "manh.npc224875@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "21",
+      "tableLabel": "Table 21",
+      "name": "Phạm Huy Sơn",
+      "sid": "20225080",
+      "email": "son.ph225080@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "21",
+      "tableLabel": "Table 21",
+      "name": "Trần Khắc Hồng Đức",
+      "sid": "20224835",
+      "email": "duc.tkh224835@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "21",
+      "tableLabel": "Table 21",
+      "name": "Trần Tuấn Hùng",
+      "sid": "20225000",
+      "email": "hung.tt225000@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "21",
+      "tableLabel": "Table 21",
+      "name": "Vũ Anh Huy",
+      "sid": "20220029",
+      "email": "huy.va220029@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "21",
+      "tableLabel": "Table 21",
+      "name": "Vương Văn Thành",
+      "sid": "20225094",
+      "email": "thanh.vv225094@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "22",
+      "tableLabel": "Table 22",
+      "name": "Bùi Văn Huy",
+      "sid": "20225497",
+      "email": "huy.bv225497@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "22",
+      "tableLabel": "Table 22",
+      "name": "Lại Trí Dũng",
+      "sid": "20225486",
+      "email": "dung.lt225486@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "22",
+      "tableLabel": "Table 22",
+      "name": "Lê Minh Hải",
+      "sid": "20225491",
+      "email": "hai.lm225491@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "22",
+      "tableLabel": "Table 22",
+      "name": "Lưu Thiện Việt Cường",
+      "sid": "20225477",
+      "email": "cuong.ltv225477@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "22",
+      "tableLabel": "Table 22",
+      "name": "Nguyễn Phan Thắng",
+      "sid": "20225529",
+      "email": "thang.np225529@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "22",
+      "tableLabel": "Table 22",
+      "name": "Phạm Long Hải",
+      "sid": "20225492",
+      "email": "hai.pl225492@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "22",
+      "tableLabel": "Table 22",
+      "name": "Phùng Tiến Thành",
+      "sid": "20225531",
+      "email": "thanh.pt225531@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "22",
+      "tableLabel": "Table 22",
+      "name": "Trần Hoàng Dũng",
+      "sid": "20225708",
+      "email": "dung.th225708@sis.hust.edu.vn",
+      "className": "Việt Nhật 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "22",
+      "tableLabel": "Table 22",
+      "name": "Triệu Kinh Quốc",
+      "sid": "20225524",
+      "email": "quoc.tk225524@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "22",
+      "tableLabel": "Table 22",
+      "name": "Vũ Quốc Dũng",
+      "sid": "20225488",
+      "email": "dung.vq225488@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "23",
+      "tableLabel": "Table 23",
+      "name": "Hoàng Minh Hiếu",
+      "sid": "20224981",
+      "email": "HIEU.HM224981@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "23",
+      "tableLabel": "Table 23",
+      "name": "Hoàng Trung Hiếu",
+      "sid": "20226039",
+      "email": "hieu.ht226039@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "23",
+      "tableLabel": "Table 23",
+      "name": "Lê Hoàng Huy",
+      "sid": "20225976",
+      "email": "huy.lh225976@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "23",
+      "tableLabel": "Table 23",
+      "name": "Ngô Minh Đức",
+      "sid": "20226028",
+      "email": "duc.nm226028@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "23",
+      "tableLabel": "Table 23",
+      "name": "Nguyễn Đình An",
+      "sid": "20226007",
+      "email": "an.nd226007@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "23",
+      "tableLabel": "Table 23",
+      "name": "Nguyễn Hữu Nam Hoà",
+      "sid": "20226040",
+      "email": "hoa.nhn226040@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "23",
+      "tableLabel": "Table 23",
+      "name": "Nguyễn Huy Hoàng",
+      "sid": "20226041",
+      "email": "hoang.nh226041@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "23",
+      "tableLabel": "Table 23",
+      "name": "Nguyễn Khắc Giáp",
+      "sid": "20224975",
+      "email": "giap.nk224975@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "23",
+      "tableLabel": "Table 23",
+      "name": "Trần Tùng Dương",
+      "sid": "20226033",
+      "email": "duong.tt226033@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "23",
+      "tableLabel": "Table 23",
+      "name": "Trần Việt Anh",
+      "sid": "20226012",
+      "email": "anh.tv226012@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "24",
+      "tableLabel": "Table 24",
+      "name": "Bùi Gia Chính",
+      "sid": "20224935",
+      "email": "chinh.bg224935@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "24",
+      "tableLabel": "Table 24",
+      "name": "Đoàn Duy Tùng",
+      "sid": "20224906",
+      "email": "tung.dd224906@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "24",
+      "tableLabel": "Table 24",
+      "name": "Hà Minh Hiếu",
+      "sid": "20220026",
+      "email": "hieu.hm220026@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "24",
+      "tableLabel": "Table 24",
+      "name": "Nguyễn Hồng Đăng",
+      "sid": "20220025",
+      "email": "dang.nh220025@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "24",
+      "tableLabel": "Table 24",
+      "name": "Nguyễn Thị Hà Chi",
+      "sid": "20220016",
+      "email": "chi.nth220016@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "24",
+      "tableLabel": "Table 24",
+      "name": "Nguyễn Văn An",
+      "sid": "20220013",
+      "email": "an.nv220013@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "24",
+      "tableLabel": "Table 24",
+      "name": "Phí Hoàng Việt",
+      "sid": "20225429",
+      "email": "viet.ph225429@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "24",
+      "tableLabel": "Table 24",
+      "name": "Trương Xuân Thông",
+      "sid": "20220044",
+      "email": "thong.tx220044@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "24",
+      "tableLabel": "Table 24",
+      "name": "Văn Đức Cường",
+      "sid": "20220021",
+      "email": "cuong.vd220021@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "24",
+      "tableLabel": "Table 24",
+      "name": "Vũ Mạnh Hưng",
+      "sid": "20225198",
+      "email": "hung.vm225198@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "25",
+      "tableLabel": "Table 25",
+      "name": "Hoàng Quốc Hưng",
+      "sid": "20226043",
+      "email": "hung.hq226043@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "25",
+      "tableLabel": "Table 25",
+      "name": "Khuất Thế Anh",
+      "sid": "20226008",
+      "email": "anh.kt226008@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "25",
+      "tableLabel": "Table 25",
+      "name": "Nguyễn Bùi Đức Anh",
+      "sid": "20220070",
+      "email": "anh.nbd220070@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "25",
+      "tableLabel": "Table 25",
+      "name": "Nguyễn Đình Phúc",
+      "sid": "20226062",
+      "email": "phuc.nd226062@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "25",
+      "tableLabel": "Table 25",
+      "name": "Nguyễn Trần Ngân Hà",
+      "sid": "20225969",
+      "email": "ha.ntn225969@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "25",
+      "tableLabel": "Table 25",
+      "name": "Trần Anh Khôi",
+      "sid": "20225981",
+      "email": "khoi.ta225981@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "25",
+      "tableLabel": "Table 25",
+      "name": "Trương Linh Duyên",
+      "sid": "20225968",
+      "email": "duyen.tl225968@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "25",
+      "tableLabel": "Table 25",
+      "name": "Vũ Thái Hưng",
+      "sid": "20226046",
+      "email": "hung.vt226046@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "25",
+      "tableLabel": "Table 25",
+      "name": "Vương Lê Bình Dương",
+      "sid": "20226035",
+      "email": "duong.vlb226035@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "26",
+      "tableLabel": "Table 26",
+      "name": "Đặng Minh Hoàng",
+      "sid": "20225719",
+      "email": "hoang.dm225719@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 6
+    },
+    {
+      "tableNumber": "26",
+      "tableLabel": "Table 26",
+      "name": "Đặng Phương Nam",
+      "sid": "20225892",
+      "email": "nam.dp225892@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 6
+    },
+    {
+      "tableNumber": "26",
+      "tableLabel": "Table 26",
+      "name": "Hoàng Đức Tấn",
+      "sid": "20225924",
+      "email": "tan.hd225924@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 6
+    },
+    {
+      "tableNumber": "26",
+      "tableLabel": "Table 26",
+      "name": "Nguyễn Lê Minh",
+      "sid": "20225651",
+      "email": "minh.nl225651@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 6
+    },
+    {
+      "tableNumber": "26",
+      "tableLabel": "Table 26",
+      "name": "Nguyễn Việt Phong",
+      "sid": "20225901",
+      "email": "phong.nv225901@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 6
+    },
+    {
+      "tableNumber": "26",
+      "tableLabel": "Table 26",
+      "name": "Phan Hoàng Hải",
+      "sid": "20225715",
+      "email": "hai.ph225715@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 6
+    },
+    {
+      "tableNumber": "27",
+      "tableLabel": "Table 27",
+      "name": "Bùi Nguyên Khải",
+      "sid": "20225501",
+      "email": "khai.bn225501@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "27",
+      "tableLabel": "Table 27",
+      "name": "Đoàn Anh Vũ",
+      "sid": "20225465",
+      "email": "vu.da225465@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "27",
+      "tableLabel": "Table 27",
+      "name": "Nguyễn Khánh Duy",
+      "sid": "20225830",
+      "email": "duy.nk225830@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "27",
+      "tableLabel": "Table 27",
+      "name": "Nguyễn Trọng Phương Bách",
+      "sid": "20225473",
+      "email": "bach.ntp225473@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "27",
+      "tableLabel": "Table 27",
+      "name": "Nguyễn Việt Tiến",
+      "sid": "20225533",
+      "email": "tien.nv225533@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "27",
+      "tableLabel": "Table 27",
+      "name": "Trần Ngọc Quang",
+      "sid": "20225523",
+      "email": "quang.tn225523@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "27",
+      "tableLabel": "Table 27",
+      "name": "Vi Hùng Đức",
+      "sid": "20224836",
+      "email": "duc.vh224836@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "27",
+      "tableLabel": "Table 27",
+      "name": "Vũ Minh Hiếu",
+      "sid": "20225494",
+      "email": "hieu.vm225494@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "27",
+      "tableLabel": "Table 27",
+      "name": "Vũ Như Đức",
+      "sid": "20225485",
+      "email": "duc.vn225485@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "27",
+      "tableLabel": "Table 27",
+      "name": "Vũ Trung Thành",
+      "sid": "20220066",
+      "email": "thanh.vt220066@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "28",
+      "tableLabel": "Table 28",
+      "name": "Hoàng Yến Nhi",
+      "sid": "20225898",
+      "email": "nhi.hy225898@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "28",
+      "tableLabel": "Table 28",
+      "name": "Lê Minh Đức",
+      "sid": "20225610",
+      "email": "duc.lm225610@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "28",
+      "tableLabel": "Table 28",
+      "name": "Lê Minh Nghĩa",
+      "sid": "20225894",
+      "email": "nghia.lm225894@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "28",
+      "tableLabel": "Table 28",
+      "name": "Ngô Việt Bách",
+      "sid": "20225789",
+      "email": "bach.nv225789@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "28",
+      "tableLabel": "Table 28",
+      "name": "Nguyễn Bùi Việt Linh",
+      "sid": "20225733",
+      "email": "linh.nbv225733@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "28",
+      "tableLabel": "Table 28",
+      "name": "Nguyễn Hoài Nam",
+      "sid": "20225748",
+      "email": "nam.nh225748@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "28",
+      "tableLabel": "Table 28",
+      "name": "Nguyễn Quỳnh Anh",
+      "sid": "20225785",
+      "email": "anh.nq225785@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "28",
+      "tableLabel": "Table 28",
+      "name": "Nguyễn Văn Phú",
+      "sid": "20225658",
+      "email": "phu.nv225658@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "28",
+      "tableLabel": "Table 28",
+      "name": "Trần Lê Anh Minh",
+      "sid": "20225652",
+      "email": "minh.tla225652@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "28",
+      "tableLabel": "Table 28",
+      "name": "Vũ Hoàng Việt",
+      "sid": "20225777",
+      "email": "viet.vh225777@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "29",
+      "tableLabel": "Table 29",
+      "name": "Bùi Xuân Đạt",
+      "sid": "20225274",
+      "email": "dat.bx225274@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "29",
+      "tableLabel": "Table 29",
+      "name": "Đỗ Nhật Minh",
+      "sid": "20225209",
+      "email": "minh.dn225209@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "29",
+      "tableLabel": "Table 29",
+      "name": "Nguyễn Kiến Quốc",
+      "sid": "20225153",
+      "email": "quoc.nk225153@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "29",
+      "tableLabel": "Table 29",
+      "name": "Nguyễn Trung Hiếu",
+      "sid": "20225188",
+      "email": "hieu.nt225188@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "29",
+      "tableLabel": "Table 29",
+      "name": "Nguyễn Văn Hoàng",
+      "sid": "20225323",
+      "email": "hoang.nv225323@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "29",
+      "tableLabel": "Table 29",
+      "name": "Phan Đức Dũng",
+      "sid": "20225294",
+      "email": "dung.pd225294@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "29",
+      "tableLabel": "Table 29",
+      "name": "Vũ Đức Trung",
+      "sid": "20225161",
+      "email": "trung.vd225161@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "29",
+      "tableLabel": "Table 29",
+      "name": "Vũ Hữu Tiến",
+      "sid": "20225231",
+      "email": "tien.vh225231@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "29",
+      "tableLabel": "Table 29",
+      "name": "Vũ Tiến An Nguyên",
+      "sid": "20225148",
+      "email": "nguyen.vta225148@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "29",
+      "tableLabel": "Table 29",
+      "name": "Vũ Việt Cường",
+      "sid": "20225270",
+      "email": "cuong.vv225270@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "30",
+      "tableLabel": "Table 30",
+      "name": "Nguyễn Chí Quân",
+      "sid": "20225385",
+      "email": "quan.nc225385@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "30",
+      "tableLabel": "Table 30",
+      "name": "Nguyễn Đức Long",
+      "sid": "20225036",
+      "email": "long.nd225036@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 06-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "30",
+      "tableLabel": "Table 30",
+      "name": "Nguyễn Hoàng Nam",
+      "sid": "20225213",
+      "email": "nam.nh225213@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 02-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "30",
+      "tableLabel": "Table 30",
+      "name": "Nguyễn Hoàng Sơn",
+      "sid": "20225525",
+      "email": "son.nh225525@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "30",
+      "tableLabel": "Table 30",
+      "name": "Nguyễn Trí Thanh",
+      "sid": "20225457",
+      "email": "thanh.nt225457@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "30",
+      "tableLabel": "Table 30",
+      "name": "Nguyễn Vũ Thành",
+      "sid": "20225403",
+      "email": "thanh.nv225403@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "30",
+      "tableLabel": "Table 30",
+      "name": "Nguyễn Xuân Thành",
+      "sid": "20225460",
+      "email": "thanh.nx225460@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "30",
+      "tableLabel": "Table 30",
+      "name": "Phan Trần Việt Bách",
+      "sid": "20225435",
+      "email": "bach.ptv225435@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "30",
+      "tableLabel": "Table 30",
+      "name": "Trần Hoàng Nhật Minh",
+      "sid": "20225366",
+      "email": "minh.thn225366@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 9
+    },
+    {
+      "tableNumber": "31",
+      "tableLabel": "Table 31",
+      "name": "Bùi Vũ Đức Nghĩa",
+      "sid": "20224883",
+      "email": "nghia.bvd224883@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "31",
+      "tableLabel": "Table 31",
+      "name": "Chu Thành Thông",
+      "sid": "20225096",
+      "email": "thong.ct225096@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "31",
+      "tableLabel": "Table 31",
+      "name": "Đỗ Đức Long",
+      "sid": "20225034",
+      "email": "long.dd225034@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "31",
+      "tableLabel": "Table 31",
+      "name": "Lê Phan Việt Cường",
+      "sid": "20224829",
+      "email": "cuong.lpv224829@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "31",
+      "tableLabel": "Table 31",
+      "name": "Nguyễn Đức Danh",
+      "sid": "20224947",
+      "email": "danh.nd224947@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "31",
+      "tableLabel": "Table 31",
+      "name": "Nguyễn Duy Dũng",
+      "sid": "20224961",
+      "email": "dung.nd224961@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "31",
+      "tableLabel": "Table 31",
+      "name": "Ong Xuân Sơn",
+      "sid": "20224897",
+      "email": "son.ox224897@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "31",
+      "tableLabel": "Table 31",
+      "name": "Phạm Phương Huy",
+      "sid": "20225977",
+      "email": "huy.pp225977@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "31",
+      "tableLabel": "Table 31",
+      "name": "Phùng Hải Minh",
+      "sid": "20225986",
+      "email": "minh.ph225986@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "31",
+      "tableLabel": "Table 31",
+      "name": "Trần Quang Minh",
+      "sid": "20225047",
+      "email": "minh.tq225047@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "34",
+      "tableLabel": "Table 34",
+      "name": "Hoàng Quốc Hùng",
+      "sid": "20224857",
+      "email": "hung.hq224857@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "34",
+      "tableLabel": "Table 34",
+      "name": "Lê Danh Vinh",
+      "sid": "20220051",
+      "email": "vinh.ld220051@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "34",
+      "tableLabel": "Table 34",
+      "name": "Nguyễn Đăng Phúc",
+      "sid": "20220040",
+      "email": "phuc.nd220040@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "34",
+      "tableLabel": "Table 34",
+      "name": "Nguyễn Đức Triệu",
+      "sid": "20224903",
+      "email": "trieu.nd224903@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "34",
+      "tableLabel": "Table 34",
+      "name": "Nguyễn Hoàng Việt",
+      "sid": "20220050",
+      "email": "viet.nh220050@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "34",
+      "tableLabel": "Table 34",
+      "name": "Phạm Quang Hưng",
+      "sid": "20220030",
+      "email": "hung.pq220030@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "34",
+      "tableLabel": "Table 34",
+      "name": "Phùng Công Hiếu",
+      "sid": "20224848",
+      "email": "hieu.pc224848@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "34",
+      "tableLabel": "Table 34",
+      "name": "Trần Sơn Tùng",
+      "sid": "20220048",
+      "email": "tung.ts220048@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "34",
+      "tableLabel": "Table 34",
+      "name": "Trần Vương Hoàng",
+      "sid": "20224855",
+      "email": "hoang.tv224855@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "34",
+      "tableLabel": "Table 34",
+      "name": "Vũ Trường An",
+      "sid": "20220058",
+      "email": "an.vt220058@sis.hust.edu.vn",
+      "className": "CTTN-Khoa học máy tính-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "37",
+      "tableLabel": "Table 37",
+      "name": "BùI KhắC ChiếN",
+      "sid": "20220059",
+      "email": "chien.bk220059@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "37",
+      "tableLabel": "Table 37",
+      "name": "Đỗ Gia Huy",
+      "sid": "20215060",
+      "email": "huy.dg215060@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "37",
+      "tableLabel": "Table 37",
+      "name": "Lại Thị Thùy",
+      "sid": "20226126",
+      "email": "thuy.lt226126@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "37",
+      "tableLabel": "Table 37",
+      "name": "Lê Văn Pháp",
+      "sid": "20226118",
+      "email": "phap.lv226118@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "37",
+      "tableLabel": "Table 37",
+      "name": "Phạm Nguyễn Hùng Nguyên",
+      "sid": "20226115",
+      "email": "nguyen.pnh226115@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "37",
+      "tableLabel": "Table 37",
+      "name": "Phạm Thái Sơn",
+      "sid": "20226125",
+      "email": "son.pt226125@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "37",
+      "tableLabel": "Table 37",
+      "name": "Phạm Trần Nguyên Phú",
+      "sid": "20226120",
+      "email": "phu.ptn226120@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "37",
+      "tableLabel": "Table 37",
+      "name": "Trần Quang Minh",
+      "sid": "20225512",
+      "email": "minh.tq225512@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "37",
+      "tableLabel": "Table 37",
+      "name": "Trịnh Hoàng Anh",
+      "sid": "20225470",
+      "email": "anh.th225470@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "37",
+      "tableLabel": "Table 37",
+      "name": "Vũ Hoàng Nhật Anh",
+      "sid": "20225471",
+      "email": "anh.vhn225471@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "38",
+      "tableLabel": "Table 38",
+      "name": "Đỗ Gia Huy",
+      "sid": "20226085",
+      "email": "huy.dg226085@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "38",
+      "tableLabel": "Table 38",
+      "name": "Ngô Mạnh Hùng",
+      "sid": "20226083",
+      "email": "hung.nm226083@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "38",
+      "tableLabel": "Table 38",
+      "name": "Nguyễn Hoàng Việt",
+      "sid": "20226098",
+      "email": "viet.nh226098@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "38",
+      "tableLabel": "Table 38",
+      "name": "Nguyễn Khoa Ninh",
+      "sid": "20226117",
+      "email": "ninh.nk226117@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "38",
+      "tableLabel": "Table 38",
+      "name": "Nguyễn Lương Hoàng Tùng",
+      "sid": "20226129",
+      "email": "tung.nlh226129@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "38",
+      "tableLabel": "Table 38",
+      "name": "Nguyễn Trung Kiên",
+      "sid": "20226110",
+      "email": "kien.nt226110@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "38",
+      "tableLabel": "Table 38",
+      "name": "Nông Quốc Khánh",
+      "sid": "20226088",
+      "email": "khanh.nq226088@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "38",
+      "tableLabel": "Table 38",
+      "name": "Ôn Quang Tùng",
+      "sid": "20226096",
+      "email": "tung.oq226096@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "38",
+      "tableLabel": "Table 38",
+      "name": "Trần Quang Huy",
+      "sid": "20226109",
+      "email": "huy.tq226109@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "38",
+      "tableLabel": "Table 38",
+      "name": "Trịnh Quang Minh",
+      "sid": "20226092",
+      "email": "minh.tq226092@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "39",
+      "tableLabel": "Table 39",
+      "name": "Đỗ Quang Huy",
+      "sid": "20225854",
+      "email": "huy.dq225854@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "39",
+      "tableLabel": "Table 39",
+      "name": "Dương Thái Anh",
+      "sid": "20226099",
+      "email": "anh.dt226099@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "39",
+      "tableLabel": "Table 39",
+      "name": "Lục Minh Đức",
+      "sid": "20225810",
+      "email": "duc.lm225810@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "39",
+      "tableLabel": "Table 39",
+      "name": "Nguyễn Minh Quang",
+      "sid": "20226123",
+      "email": "quang.nm226123@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "39",
+      "tableLabel": "Table 39",
+      "name": "Nguyễn Trung Hiếu",
+      "sid": "20226082",
+      "email": "hieu.nt226082@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "39",
+      "tableLabel": "Table 39",
+      "name": "Nguyễn Trung Sơn",
+      "sid": "20226124",
+      "email": "Son.nt226124@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "39",
+      "tableLabel": "Table 39",
+      "name": "Phạm Nguyên Việt",
+      "sid": "20225776",
+      "email": "viet.pn225776@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "39",
+      "tableLabel": "Table 39",
+      "name": "Phan Hoàng Long",
+      "sid": "20225738",
+      "email": "long.ph225738@sis.hust.edu.vn",
+      "className": "Việt Nhật 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "39",
+      "tableLabel": "Table 39",
+      "name": "Trần Đại Hiệp",
+      "sid": "20226081",
+      "email": "hiep.td226081@sis.hust.edu.vn",
+      "className": "CNTT Việt Pháp 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "39",
+      "tableLabel": "Table 39",
+      "name": "Trương Công Thái Đức",
+      "sid": "20225815",
+      "email": "duc.tct225815@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "40",
+      "tableLabel": "Table 40",
+      "name": "Bàng Tiến Thành",
+      "sid": "20225669",
+      "email": "thanh.bt225669@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "40",
+      "tableLabel": "Table 40",
+      "name": "Bùi Quốc Bảo",
+      "sid": "20225601",
+      "email": "bao.bq225601@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "40",
+      "tableLabel": "Table 40",
+      "name": "Đỗ Hoàng Đông",
+      "sid": "20225807",
+      "email": "dong.dh225807@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "40",
+      "tableLabel": "Table 40",
+      "name": "Mạch Ngọc Đức Anh",
+      "sid": "20225595",
+      "email": "anh.mnd225595@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "40",
+      "tableLabel": "Table 40",
+      "name": "Nguyễn Trí Dũng",
+      "sid": "20225613",
+      "email": "dung.nt225613@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "40",
+      "tableLabel": "Table 40",
+      "name": "Phạm Việt Anh",
+      "sid": "20225599",
+      "email": "anh.pv225599@sis.hust.edu.vn",
+      "className": "Việt Nhật 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "40",
+      "tableLabel": "Table 40",
+      "name": "Trịnh Quốc Hoàng",
+      "sid": "20225629",
+      "email": "hoang.tq225629@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "40",
+      "tableLabel": "Table 40",
+      "name": "Trịnh Vi Giang Xuân",
+      "sid": "20225118",
+      "email": "xuan.tvg225118@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "40",
+      "tableLabel": "Table 40",
+      "name": "Trương Phạm Ngọc Khánh",
+      "sid": "20225641",
+      "email": "khanh.tpn225641@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "40",
+      "tableLabel": "Table 40",
+      "name": "Vũ Minh Quân",
+      "sid": "20225910",
+      "email": "quan.vm225910@sis.hust.edu.vn",
+      "className": "Việt Nhật 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "41",
+      "tableLabel": "Table 41",
+      "name": "Bùi Hà My",
+      "sid": "20225987",
+      "email": "my.bh225987@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "41",
+      "tableLabel": "Table 41",
+      "name": "Cao Thị Ngọc Huyền",
+      "sid": "20225015",
+      "email": "huyen.ctn225015@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "41",
+      "tableLabel": "Table 41",
+      "name": "Đặng Văn Nhân",
+      "sid": "20225990",
+      "email": "nhan.dv225990@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "41",
+      "tableLabel": "Table 41",
+      "name": "Hà Việt Khánh",
+      "sid": "20225979",
+      "email": "khanh.hv225979@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "41",
+      "tableLabel": "Table 41",
+      "name": "Hồ Bảo Thư",
+      "sid": "20226003",
+      "email": "thu.hb226003@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "41",
+      "tableLabel": "Table 41",
+      "name": "Nguyễn Đình Dương",
+      "sid": "20225966",
+      "email": "duong.nd225966@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "41",
+      "tableLabel": "Table 41",
+      "name": "Nguyễn Lan Nhi",
+      "sid": "20225991",
+      "email": "nhi.nl225991@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "41",
+      "tableLabel": "Table 41",
+      "name": "Nguyễn Mỹ Duyên",
+      "sid": "20225967",
+      "email": "duyen.nm225967@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "41",
+      "tableLabel": "Table 41",
+      "name": "Nguyễn Thị Thúy Hiền",
+      "sid": "20224844",
+      "email": "hien.ntt224844@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "41",
+      "tableLabel": "Table 41",
+      "name": "Nguyễn Trọng Minh Phương",
+      "sid": "20225992",
+      "email": "phuong.ntm225992@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "42",
+      "tableLabel": "Table 42",
+      "name": "Hạ Nhật Duy",
+      "sid": "20225544",
+      "email": "duy.hn225544@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "42",
+      "tableLabel": "Table 42",
+      "name": "Kim Duy Minh",
+      "sid": "20225578",
+      "email": "minh.kd225578@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "42",
+      "tableLabel": "Table 42",
+      "name": "Lê Hải Nhật",
+      "sid": "20225583",
+      "email": "nhat.lh225583@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "42",
+      "tableLabel": "Table 42",
+      "name": "Lê Tiến Đạt",
+      "sid": "20225543",
+      "email": "dat.lt225543@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "42",
+      "tableLabel": "Table 42",
+      "name": "Nguyễn Minh Đức",
+      "sid": "20225567",
+      "email": "Duc.NM225567@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "42",
+      "tableLabel": "Table 42",
+      "name": "Nguyễn Quang Hưng",
+      "sid": "20225545",
+      "email": "Hung.NQ225545@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "42",
+      "tableLabel": "Table 42",
+      "name": "Phạm Đoàn Phúc Lâm",
+      "sid": "20225546",
+      "email": "lam.pdp225546@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "42",
+      "tableLabel": "Table 42",
+      "name": "Phạm Tuấn Anh",
+      "sid": "20225542",
+      "email": "anh.pt225542@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "42",
+      "tableLabel": "Table 42",
+      "name": "Phan Việt Anh",
+      "sid": "20225566",
+      "email": "anh.pv225566@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "42",
+      "tableLabel": "Table 42",
+      "name": "Trần Đăng Huy",
+      "sid": "20225575",
+      "email": "huy.td225575@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "43",
+      "tableLabel": "Table 43",
+      "name": "Bùi Xuân Sơn",
+      "sid": "20225586",
+      "email": "son.bx225586@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "43",
+      "tableLabel": "Table 43",
+      "name": "Lê Anh Tuấn",
+      "sid": "20225559",
+      "email": "tuan.la225559@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "43",
+      "tableLabel": "Table 43",
+      "name": "Ngô Anh Quân",
+      "sid": "20225584",
+      "email": "Quan.NA225584@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "43",
+      "tableLabel": "Table 43",
+      "name": "Nguyễn Phương Linh",
+      "sid": "20225547",
+      "email": "linh.np225547@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "43",
+      "tableLabel": "Table 43",
+      "name": "Nguyễn Tuấn Minh",
+      "sid": "20225579",
+      "email": "Minh.NT225579@sis.hust.edu.vn",
+      "className": "0",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "43",
+      "tableLabel": "Table 43",
+      "name": "Phạm Nguyễn Hải Nhi",
+      "sid": "20225549",
+      "email": "nhi.pnh225549@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "43",
+      "tableLabel": "Table 43",
+      "name": "Phan Thu Hà",
+      "sid": "20225571",
+      "email": "ha.pt225571@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "43",
+      "tableLabel": "Table 43",
+      "name": "Trần Công Thành",
+      "sid": "20225554",
+      "email": "thanh.tc225554@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "43",
+      "tableLabel": "Table 43",
+      "name": "Trần Quốc Trí Trung",
+      "sid": "20225558",
+      "email": "trung.tqt225558@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "43",
+      "tableLabel": "Table 43",
+      "name": "Trương Thảo Nguyên",
+      "sid": "20220067",
+      "email": "nguyen.tt220067@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "44",
+      "tableLabel": "Table 44",
+      "name": "Dương Mạnh Kiên",
+      "sid": "20225576",
+      "email": "kien.dm225576@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "44",
+      "tableLabel": "Table 44",
+      "name": "Lê Trần Long",
+      "sid": "20225577",
+      "email": "long.lt225577@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "44",
+      "tableLabel": "Table 44",
+      "name": "Lưu Đức Tài",
+      "sid": "20225081",
+      "email": "tai.ld225081@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "44",
+      "tableLabel": "Table 44",
+      "name": "Lưu Tuấn Hùng",
+      "sid": "20225131",
+      "email": "hung.lt225131@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "44",
+      "tableLabel": "Table 44",
+      "name": "Nguyễn Ngọc Phúc",
+      "sid": "20220041",
+      "email": "phuc.nn220041@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "44",
+      "tableLabel": "Table 44",
+      "name": "Nguyễn Quang Trung",
+      "sid": "20225557",
+      "email": "trung.nq225557@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "44",
+      "tableLabel": "Table 44",
+      "name": "Nguyễn Thành Lâm",
+      "sid": "20225139",
+      "email": "lam.nt225139@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "44",
+      "tableLabel": "Table 44",
+      "name": "Trần Quang Huy",
+      "sid": "20225201",
+      "email": "huy.tq225201@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "44",
+      "tableLabel": "Table 44",
+      "name": "Trần Thị Tường Vân",
+      "sid": "20225590",
+      "email": "van.ttt225590@sis.hust.edu.vn",
+      "className": "CTTT An toàn không gian số 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "44",
+      "tableLabel": "Table 44",
+      "name": "Vũ Tiến Nam",
+      "sid": "20225055",
+      "email": "nam.vt225055@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "45",
+      "tableLabel": "Table 45",
+      "name": "Đinh Ngọc Cầm",
+      "sid": "20226016",
+      "email": "cam.dn226016@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "45",
+      "tableLabel": "Table 45",
+      "name": "Đinh Nguyễn Sơn",
+      "sid": "20225997",
+      "email": "son.dn225997@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "45",
+      "tableLabel": "Table 45",
+      "name": "Hoàng Bá Bảo",
+      "sid": "20226015",
+      "email": "bao.hb226015@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "45",
+      "tableLabel": "Table 45",
+      "name": "Hoàng Khải Mạnh",
+      "sid": "20225984",
+      "email": "manh.hk225984@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "45",
+      "tableLabel": "Table 45",
+      "name": "Lê Đại Lâm",
+      "sid": "20225982",
+      "email": "lam.ld225982@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "45",
+      "tableLabel": "Table 45",
+      "name": "Luân Quang Minh",
+      "sid": "20225985",
+      "email": "minh.lq225985@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "45",
+      "tableLabel": "Table 45",
+      "name": "Nguyễn Minh Khôi",
+      "sid": "20226050",
+      "email": "khoi.nm226050@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "45",
+      "tableLabel": "Table 45",
+      "name": "Trần Quang Hưng",
+      "sid": "20226045",
+      "email": "hung.tq226045@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "45",
+      "tableLabel": "Table 45",
+      "name": "Vũ Đức Mạnh",
+      "sid": "20226054",
+      "email": "manh.vd226054@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "45",
+      "tableLabel": "Table 45",
+      "name": "Vũ Hải Đăng",
+      "sid": "20225962",
+      "email": "dang.vh225962@sis.hust.edu.vn",
+      "className": "ICT 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "46",
+      "tableLabel": "Table 46",
+      "name": "Đàm Thanh Bách",
+      "sid": "20225600",
+      "email": "bach.dt225600@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "46",
+      "tableLabel": "Table 46",
+      "name": "Đỗ Mạnh Phương",
+      "sid": "20225660",
+      "email": "phuong.dm225660@sis.hust.edu.vn",
+      "className": "Việt Nhật 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "46",
+      "tableLabel": "Table 46",
+      "name": "Kha Minh Bảo",
+      "sid": "20210098",
+      "email": "bao.km210098@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K66",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "46",
+      "tableLabel": "Table 46",
+      "name": "Lê Đồng Cảnh Phú",
+      "sid": "20225755",
+      "email": "phu.ldc225755@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "46",
+      "tableLabel": "Table 46",
+      "name": "Lê Thị Ngọc Thảo",
+      "sid": "20225673",
+      "email": "thao.ltn225673@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "46",
+      "tableLabel": "Table 46",
+      "name": "Nguyễn Bình An",
+      "sid": "20225591",
+      "email": "an.nb225591@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "46",
+      "tableLabel": "Table 46",
+      "name": "Nguyễn Hữu Kiên",
+      "sid": "20225024",
+      "email": "kien.nh225024@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "46",
+      "tableLabel": "Table 46",
+      "name": "Nguyễn Kim Ngọc",
+      "sid": "20225655",
+      "email": "ngoc.nk225655@sis.hust.edu.vn",
+      "className": "Việt Nhật 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "46",
+      "tableLabel": "Table 46",
+      "name": "Nguyễn Phúc Anh",
+      "sid": "20225784",
+      "email": "anh.np225784@sis.hust.edu.vn",
+      "className": "Việt Nhật 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "46",
+      "tableLabel": "Table 46",
+      "name": "Tô Minh Ánh",
+      "sid": "20225787",
+      "email": "anh.tm225787@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "47",
+      "tableLabel": "Table 47",
+      "name": "Bùi Xuân Tùng",
+      "sid": "20224905",
+      "email": "tung.bx224905@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "47",
+      "tableLabel": "Table 47",
+      "name": "Đinh Công Thái",
+      "sid": "20224898",
+      "email": "thai.dc224898@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "47",
+      "tableLabel": "Table 47",
+      "name": "Đỗ Huy Đạt",
+      "sid": "20220024",
+      "email": "dat.dh220024@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "47",
+      "tableLabel": "Table 47",
+      "name": "Lại Hoàng Sơn",
+      "sid": "20224895",
+      "email": "son.lh224895@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "47",
+      "tableLabel": "Table 47",
+      "name": "Lê Hoàng Anh",
+      "sid": "20224918",
+      "email": "anh.lh224918@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "47",
+      "tableLabel": "Table 47",
+      "name": "Ngô Trí Cảnh",
+      "sid": "20220015",
+      "email": "canh.nt220015@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "47",
+      "tableLabel": "Table 47",
+      "name": "Nguyễn Chí Cường",
+      "sid": "20224938",
+      "email": "cuong.nc224938@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "47",
+      "tableLabel": "Table 47",
+      "name": "Nguyễn Duy Khánh",
+      "sid": "20225019",
+      "email": "khanh.nd225019@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "47",
+      "tableLabel": "Table 47",
+      "name": "Nguyễn Kim Cường",
+      "sid": "20224939",
+      "email": "cuong.nk224939@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "47",
+      "tableLabel": "Table 47",
+      "name": "Nguyễn Trung Long",
+      "sid": "20224874",
+      "email": "long.nt224874@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "48",
+      "tableLabel": "Table 48",
+      "name": "Đặng Hải Anh",
+      "sid": "20225688",
+      "email": "anh.dh225688@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "48",
+      "tableLabel": "Table 48",
+      "name": "Đoàn Nhật Quang",
+      "sid": "20225911",
+      "email": "quang.dn225911@sis.hust.edu.vn",
+      "className": "Việt Nhật 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "48",
+      "tableLabel": "Table 48",
+      "name": "Lê Thị Quỳnh",
+      "sid": "20225917",
+      "email": "quynh.lt225917@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "48",
+      "tableLabel": "Table 48",
+      "name": "Lê Xuân Cường",
+      "sid": "20225797",
+      "email": "cuong.lx225797@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "48",
+      "tableLabel": "Table 48",
+      "name": "Nguyễn Minh Hiếu",
+      "sid": "20224983",
+      "email": "hieu.nm224983@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "48",
+      "tableLabel": "Table 48",
+      "name": "Nguyễn Quang Huy",
+      "sid": "20225007",
+      "email": "huy.nq225007@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "48",
+      "tableLabel": "Table 48",
+      "name": "Phạm Duy Đông",
+      "sid": "20225608",
+      "email": "dong.pd225608@sis.hust.edu.vn",
+      "className": "Việt Nhật 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "48",
+      "tableLabel": "Table 48",
+      "name": "Trần Xuân Tú",
+      "sid": "20225677",
+      "email": "tu.tx225677@sis.hust.edu.vn",
+      "className": "Việt Nhật 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "48",
+      "tableLabel": "Table 48",
+      "name": "Trương Minh Ngọc",
+      "sid": "20220038",
+      "email": "ngoc.tm220038@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "48",
+      "tableLabel": "Table 48",
+      "name": "Vũ Ngọc Đức",
+      "sid": "20225816",
+      "email": "duc.vn225816@sis.hust.edu.vn",
+      "className": "Việt Nhật 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "49",
+      "tableLabel": "Table 49",
+      "name": "Đinh Bảo Phúc",
+      "sid": "20224889",
+      "email": "phuc.db224889@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "49",
+      "tableLabel": "Table 49",
+      "name": "Đỗ Trần Gia Bách",
+      "sid": "20225472",
+      "email": "bach.dtg225472@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "49",
+      "tableLabel": "Table 49",
+      "name": "Nguyễn Hoàng Sơn Tùng",
+      "sid": "20225536",
+      "email": "tung.nhs225536@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "49",
+      "tableLabel": "Table 49",
+      "name": "Nguyễn Hoàng Việt Hùng",
+      "sid": "20224996",
+      "email": "hung.nhv224996@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "49",
+      "tableLabel": "Table 49",
+      "name": "Nguyễn Phan Anh Vũ",
+      "sid": "20225466",
+      "email": "vu.npa225466@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "49",
+      "tableLabel": "Table 49",
+      "name": "Nguyễn Thành Minh",
+      "sid": "20225450",
+      "email": "minh.nt225450@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "49",
+      "tableLabel": "Table 49",
+      "name": "Nguyễn Tiến Thắng",
+      "sid": "20225530",
+      "email": "thang.nt225530@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "49",
+      "tableLabel": "Table 49",
+      "name": "Trần Quang Hưng",
+      "sid": "20225004",
+      "email": "hung.tq225004@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "49",
+      "tableLabel": "Table 49",
+      "name": "Vũ Tuấn Trường",
+      "sid": "20225535",
+      "email": "truong.vt225535@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "49",
+      "tableLabel": "Table 49",
+      "name": "Vũ Việt Long",
+      "sid": "20225508",
+      "email": "long.vv225508@sis.hust.edu.vn",
+      "className": "CTTT Data Science & AI 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "50",
+      "tableLabel": "Table 50",
+      "name": "Bùi Chí Thức",
+      "sid": "20225230",
+      "email": "thuc.bc225230@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "50",
+      "tableLabel": "Table 50",
+      "name": "Cao Văn Bảo",
+      "sid": "20225166",
+      "email": "bao.cv225166@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "50",
+      "tableLabel": "Table 50",
+      "name": "Đỗ Sơn Tùng",
+      "sid": "20225425",
+      "email": "tung.ds225425@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "50",
+      "tableLabel": "Table 50",
+      "name": "Hà Huy Dương",
+      "sid": "20225183",
+      "email": "duong.hh225183@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "50",
+      "tableLabel": "Table 50",
+      "name": "Hoàng Đức Khải",
+      "sid": "20225341",
+      "email": "khai.hd225341@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "50",
+      "tableLabel": "Table 50",
+      "name": "Ngô Hùng Phúc",
+      "sid": "20225376",
+      "email": "phuc.nh225376@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "50",
+      "tableLabel": "Table 50",
+      "name": "Ngô Minh Quân",
+      "sid": "20225383",
+      "email": "quan.nm225383@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "50",
+      "tableLabel": "Table 50",
+      "name": "Nguyễn Tuấn Đạt",
+      "sid": "20225278",
+      "email": "dat.nt225278@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "50",
+      "tableLabel": "Table 50",
+      "name": "Nguyễn Văn Việt",
+      "sid": "20225237",
+      "email": "viet.nv225237@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "50",
+      "tableLabel": "Table 50",
+      "name": "Phạm Quốc Khánh",
+      "sid": "20225345",
+      "email": "khanh.pq225345@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "51",
+      "tableLabel": "Table 51",
+      "name": "Bùi Xuân Hải",
+      "sid": "20194268",
+      "email": "hai.bx194268@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 03-K64",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "51",
+      "tableLabel": "Table 51",
+      "name": "Bùi Xuân Sơn",
+      "sid": "20226065",
+      "email": "son.bx226065@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "51",
+      "tableLabel": "Table 51",
+      "name": "Nguyễn Huy Mạnh",
+      "sid": "20225143",
+      "email": "manh.nh225143@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "51",
+      "tableLabel": "Table 51",
+      "name": "Nguyễn Minh Ngọc",
+      "sid": "20225057",
+      "email": "ngoc.nm225057@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "51",
+      "tableLabel": "Table 51",
+      "name": "Phạm Hoàng Hải",
+      "sid": "20194269",
+      "email": "hai.ph194269@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K64",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "51",
+      "tableLabel": "Table 51",
+      "name": "Phạm Việt Hòa",
+      "sid": "20225128",
+      "email": "hoa.pv225128@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "51",
+      "tableLabel": "Table 51",
+      "name": "Phan Hà Quyên",
+      "sid": "20225224",
+      "email": "quyen.ph225224@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "51",
+      "tableLabel": "Table 51",
+      "name": "Phan Thế Toàn",
+      "sid": "20225415",
+      "email": "toan.pt225415@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "51",
+      "tableLabel": "Table 51",
+      "name": "Trần Gia Huy",
+      "sid": "20207988",
+      "email": "huy.tg207988@sis.hust.edu.vn",
+      "className": "IT-VUW 02-K65",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "51",
+      "tableLabel": "Table 51",
+      "name": "Trần Văn Tài",
+      "sid": "20207700",
+      "email": "tai.tv207700@sis.hust.edu.vn",
+      "className": "IT-VUW 01-K65",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "52",
+      "tableLabel": "Table 52",
+      "name": "Bùi Lê Hùng",
+      "sid": "20224994",
+      "email": "hung.bl224994@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "52",
+      "tableLabel": "Table 52",
+      "name": "Bùi Lê Huy",
+      "sid": "20225005",
+      "email": "huy.bl225005@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "52",
+      "tableLabel": "Table 52",
+      "name": "Dương Quang Anh",
+      "sid": "20224916",
+      "email": "anh.dq224916@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "52",
+      "tableLabel": "Table 52",
+      "name": "Nguyễn Hải Nam",
+      "sid": "20225051",
+      "email": "nam.nh225051@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "52",
+      "tableLabel": "Table 52",
+      "name": "Phạm Trung Kiên",
+      "sid": "20225026",
+      "email": "kien.pt225026@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "52",
+      "tableLabel": "Table 52",
+      "name": "Quản Tuấn Huy",
+      "sid": "20225014",
+      "email": "huy.qt225014@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "52",
+      "tableLabel": "Table 52",
+      "name": "Trần Đình Phúc",
+      "sid": "20224891",
+      "email": "phuc.td224891@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "52",
+      "tableLabel": "Table 52",
+      "name": "Trần Thế Anh",
+      "sid": "20224927",
+      "email": "anh.tt224927@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 03-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "52",
+      "tableLabel": "Table 52",
+      "name": "Trần Xuân Phúc",
+      "sid": "20225379",
+      "email": "phuc.tx225379@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 07-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "52",
+      "tableLabel": "Table 52",
+      "name": "Trương Ngọc Hải",
+      "sid": "20225309",
+      "email": "hai.tn225309@sis.hust.edu.vn",
+      "className": "Kỹ thuật máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "53",
+      "tableLabel": "Table 53",
+      "name": "Chu Tuấn Nghĩa",
+      "sid": "20225056",
+      "email": "nghia.ct225056@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "53",
+      "tableLabel": "Table 53",
+      "name": "Dương Vũ Hoàng",
+      "sid": "20224987",
+      "email": "hoang.dv224987@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "53",
+      "tableLabel": "Table 53",
+      "name": "Hà Huy Hoàng",
+      "sid": "20224988",
+      "email": "hoang.hh224988@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "53",
+      "tableLabel": "Table 53",
+      "name": "Liễu Bảo Bảo",
+      "sid": "20224929",
+      "email": "bao.lb224929@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 06-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "53",
+      "tableLabel": "Table 53",
+      "name": "Nguyễn Công Hùng",
+      "sid": "20224858",
+      "email": "hung.nc224858@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "53",
+      "tableLabel": "Table 53",
+      "name": "Nguyễn Thành Trung",
+      "sid": "20225105",
+      "email": "trung.nt225105@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 04-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "53",
+      "tableLabel": "Table 53",
+      "name": "Nguyễn Việt Long",
+      "sid": "20225037",
+      "email": "long.nv225037@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 01-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "53",
+      "tableLabel": "Table 53",
+      "name": "Trần Anh Đức",
+      "sid": "20220120",
+      "email": "duc.ta220120@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 05-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "53",
+      "tableLabel": "Table 53",
+      "name": "Trịnh Mạnh Quỳnh",
+      "sid": "20226064",
+      "email": "quynh.tm226064@sis.hust.edu.vn",
+      "className": "ICT 02-K67",
+      "tableSize": 10
+    },
+    {
+      "tableNumber": "53",
+      "tableLabel": "Table 53",
+      "name": "Vũ Văn Tú",
+      "sid": "20215504",
+      "email": "tu.vv215504@sis.hust.edu.vn",
+      "className": "Khoa học máy tính 04-K66",
+      "tableSize": 10
+    }
+  ]
+}

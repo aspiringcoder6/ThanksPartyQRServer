@@ -197,6 +197,7 @@
     async function api(path, options = {}) {
       const res = await fetch(path, {
         ...options,
+        cache: 'no-store',
         headers: { 'Content-Type': 'application/json', ...(options.headers || {}) },
       });
       const data = await res.json().catch(() => ({}));
@@ -313,7 +314,33 @@
     }
 
     async function toggleCheckin(mssv, checkedIn) {
-      await mutate('/api/admin/checkins/toggle', { mssv, checkedIn });
+      try {
+        status('Saving...');
+        const data = await api('/api/admin/checkins/toggle', {
+          method: 'POST',
+          body: JSON.stringify({ mssv, checkedIn }),
+        });
+        applyParticipantUpdate(data.participant);
+        renderTables();
+        renderSlots();
+        status('Ready');
+        await loadData();
+      } catch (err) {
+        status(err.message);
+      }
+    }
+
+    function applyParticipantUpdate(updated) {
+      if (!updated?.sid) return;
+      participants = participants.map(person =>
+        person.sid === updated.sid ? { ...person, ...updated } : person
+      );
+      tables = tables.map(table => ({
+        ...table,
+        people: table.people.map(person =>
+          person.sid === updated.sid ? { ...person, ...updated } : person
+        ),
+      }));
     }
 
     async function mutate(path, body) {
@@ -334,7 +361,7 @@
     async function downloadCsv() {
       try {
         status('Preparing CSV...');
-        const res = await fetch('/api/admin/participants.csv');
+        const res = await fetch('/api/admin/participants.csv', { cache: 'no-store' });
         if (!res.ok) throw new Error('Could not download CSV');
         const blob = await res.blob();
         const url = URL.createObjectURL(blob);
