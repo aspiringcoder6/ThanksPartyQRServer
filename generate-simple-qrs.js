@@ -22,7 +22,7 @@ function safeFilePart(value) {
 function fileNameFor(participant, index) {
   const id = safeFilePart(participant.sid);
   const name = safeFilePart(participant.name);
-  return `${String(index + 1).padStart(4, '0')}_${id}_${name || participant.email || 'participant'}.png`;
+  return `${id}_${name || participant.email || 'participant'}.png`;
 }
 
 async function main() {

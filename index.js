@@ -83,27 +83,50 @@ function findParticipantBySid(sid, bySid) {
   return bySid.get(norm(sid)) || null;
 }
 
-function tableRecordParticipant(record, tableStore) {
-  if (!record) return null;
+function registryClass(participant) {
+  return participant?.fields?.Class
+    || participant?.fields?.Lop
+    || participant?.fields?.['Lop']
+    || '';
+}
+
+function mergeTablePerson(person, bySid) {
+  const participant = bySid.get(norm(person.sid));
+  if (!participant) return person;
+
   return {
-    uid: `table:${record.sid}`,
-    name: record.name,
-    sid: record.sid,
-    email: record.email,
-    tableInfo: tableStore.find(record),
-    checkedIn: checkedIn.has(norm(record.sid)),
-    checkedInAt: checkedIn.get(norm(record.sid))?.checkedInAt ?? null,
+    ...person,
+    name: participant.name || person.name,
+    email: participant.email || person.email,
+    className: registryClass(participant) || person.className,
   };
 }
 
-function tableViews(tableStore) {
+function tableRecordParticipant(record, tableStore, bySid) {
+  if (!record) return null;
+  const merged = mergeTablePerson(record, bySid);
+  return {
+    uid: `table:${merged.sid}`,
+    name: merged.name,
+    sid: merged.sid,
+    email: merged.email,
+    tableInfo: tableStore.find(merged),
+    checkedIn: checkedIn.has(norm(merged.sid)),
+    checkedInAt: checkedIn.get(norm(merged.sid))?.checkedInAt ?? null,
+  };
+}
+
+function tableViews(tableStore, bySid) {
   return tableStore.tables().map(table => ({
     ...table,
-    people: table.people.map(person => ({
-      ...person,
-      checkedIn: checkedIn.has(norm(person.sid)),
-      checkedInAt: checkedIn.get(norm(person.sid))?.checkedInAt ?? null,
-    })),
+    people: table.people.map(person => {
+      const merged = mergeTablePerson(person, bySid);
+      return {
+        ...merged,
+        checkedIn: checkedIn.has(norm(merged.sid)),
+        checkedInAt: checkedIn.get(norm(merged.sid))?.checkedInAt ?? null,
+      };
+    }),
   }));
 }
 
@@ -208,7 +231,7 @@ async function main() {
 
   app.get('/api/admin/tables', (_, res) => {
     res.json({
-      tables: tableViews(tableStore),
+      tables: tableViews(tableStore, bySid),
       participants: registry.map(p => publicParticipant(p, tableStore)),
     });
   });
@@ -268,7 +291,7 @@ async function main() {
 
     const resultParticipant = participant
       ? publicParticipant(participant, tableStore)
-      : tableRecordParticipant(tableRecord, tableStore);
+      : tableRecordParticipant(tableRecord, tableStore, bySid);
 
     res.json({
       success: true,

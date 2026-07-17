@@ -4,9 +4,13 @@ const fs = require('fs');
 const path = require('path');
 const JSZip = require('jszip');
 
+const DEFAULT_FINAL_LAYOUT = path.join(__dirname, 'layoutFinal.xlsx');
+const DEFAULT_LAYOUT = path.join(__dirname, 'layout.xlsx');
 const LAYOUT_PATH = process.env.LAYOUT_XLSX
   ? path.resolve(process.env.LAYOUT_XLSX)
-  : path.join(__dirname, 'layout.xlsx');
+  : fs.existsSync(DEFAULT_FINAL_LAYOUT)
+    ? DEFAULT_FINAL_LAYOUT
+    : DEFAULT_LAYOUT;
 
 function decodeXml(value) {
   return String(value || '')
@@ -46,8 +50,25 @@ function valueAt(row, index) {
   return String(row[index] ?? '').trim();
 }
 
+function numberText(value) {
+  const text = String(value || '').trim();
+  if (!text) return '';
+  if (!/^\d+(?:\.\d+)?(?:e\+?\d+)?$/i.test(text)) return text;
+  const number = Number(text);
+  if (!Number.isFinite(number)) return text;
+  return Number.isInteger(number) ? String(number) : text;
+}
+
+function tableNumberOf(value) {
+  const text = numberText(value);
+  if (!/^\d+$/.test(text)) return '';
+  const number = Number(text);
+  if (number < 1 || number > 60) return '';
+  return String(number);
+}
+
 function isTableNumber(value) {
-  return /^\d+$/.test(String(value || '').trim());
+  return Boolean(tableNumberOf(value));
 }
 
 function parseSheets(workbookXml, relsXml) {
@@ -56,8 +77,13 @@ function parseSheets(workbookXml, relsXml) {
       .map(match => [match[1], `xl/${match[2].replace(/^\//, '')}`])
   );
 
-  return [...workbookXml.matchAll(/<sheet name="([^"]+)" sheetId="[^"]+" r:id="(rId\d+)"\/>/g)]
-    .map(match => ({ name: decodeXml(match[1]), file: relMap[match[2]] }))
+  return [...workbookXml.matchAll(/<sheet\b([^>]*)\/>/g)]
+    .map(match => {
+      const attrs = match[1];
+      const name = attrs.match(/\bname="([^"]+)"/)?.[1];
+      const rid = attrs.match(/\br:id="([^"]+)"/)?.[1];
+      return { name: decodeXml(name), file: relMap[rid] };
+    })
     .filter(sheet => sheet.file);
 }
 
@@ -120,15 +146,18 @@ function buildTableIndex(rows) {
   for (const row of rows.slice(1)) {
     const first = valueAt(row, 0);
     const second = valueAt(row, 1);
-    const sid = valueAt(row, 2);
+    const sid = numberText(valueAt(row, 2));
     const email = valueAt(row, 3);
     const className = valueAt(row, 4);
 
-    if (isTableNumber(first)) {
-      currentTable = first;
+    if (normalize(first) === 'số bàn' || normalize(sid) === 'mssv') continue;
+
+    const tableNumber = tableNumberOf(first);
+    if (tableNumber) {
+      currentTable = tableNumber;
     }
 
-    const name = isTableNumber(first) ? second : (first || second);
+    const name = tableNumber ? second : (first || second);
     if (!currentTable || (!sid && !email && !name)) continue;
 
     records.push({
@@ -166,7 +195,9 @@ async function loadLayout() {
   if (cachedLayout) return cachedLayout;
 
   const { sheets, rowsBySheet } = await loadWorkbookRows();
-  const tableSheet = sheets.find(sheet => normalize(sheet.name).includes('chia')) || sheets[0];
+  const tableSheet = sheets.find(sheet => normalize(sheet.name).includes('chia'))
+    || sheets.find(sheet => normalize(sheet.name) === 'layout')
+    || sheets[0];
   const tableRows = tableSheet ? rowsBySheet.get(tableSheet.name) || [] : [];
   const tableIndex = buildTableIndex(tableRows);
 

@@ -3,6 +3,7 @@ qr-output/
 qr-output.zip
 .env
 *.log
+~$*.xlsx
 .npm-cache/
 table-assignments.json
 qr-simple-output/
