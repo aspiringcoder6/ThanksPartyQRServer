@@ -71,6 +71,10 @@ function isTableNumber(value) {
   return Boolean(tableNumberOf(value));
 }
 
+function isStudentId(value) {
+  return /^\d{8}$/.test(numberText(value));
+}
+
 function parseSheets(workbookXml, relsXml) {
   const relMap = Object.fromEntries(
     [...relsXml.matchAll(/<Relationship Id="([^"]+)"[^>]*Target="([^"]+)"/g)]
@@ -152,13 +156,13 @@ function buildTableIndex(rows) {
 
     if (normalize(first) === 'số bàn' || normalize(sid) === 'mssv') continue;
 
-    const tableNumber = tableNumberOf(first);
+    const tableNumber = second ? tableNumberOf(first) : '';
     if (tableNumber) {
       currentTable = tableNumber;
     }
 
-    const name = tableNumber ? second : (first || second);
-    if (!currentTable || (!sid && !email && !name)) continue;
+    const name = tableNumber ? second : (second || (tableNumberOf(first) ? '' : first));
+    if (!currentTable || (!isStudentId(sid) && !email)) continue;
 
     records.push({
       tableNumber: currentTable,
